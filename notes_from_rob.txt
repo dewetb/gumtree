@@ -1,0 +1,95 @@
+
+git
+ (https://github.com/robforman/gumtree) to your own github account and then git clone to your local machine.
+* Install rvm, if you haven't already
+* Create 1.9.3 ruby and gumtree gemset (thats what my .rvmrc wants)
+* Installs gems (run "bundle install" from project dir)
+* Run unit tests (run "rspec spec" from project dir) 
+
+You should see two tests pass and one failure:
+$ rspec spec
+..F
+
+Failures:
+
+  1) Gumtree should delete ads
+     Failure/Error: gumtree_ad.delete
+     RuntimeError:
+       Not implemented yet.
+     # ./lib/gumtree.rb:68:in `delete_ad'
+     # ./lib/gumtree.rb:91:in `delete'
+     # ./spec/gumtree_spec.rb:62:in `block (3 levels) in <top (required)>'
+     # ./spec/gumtree_spec.rb:59:in `block (2 levels) in <top (required)>'
+
+Finished in 0.11649 seconds
+3 examples, 1 failure
+
+The two passing tests are login, and posting an ad.  The tests shouldn't actually hit gumtree (tests should always be able to run in isolation).  This is done with the VCR gem.  The first time it does hit gumtree and records the web traffic in a yml file that you commit.. after that it just plays it back.  Thats what the files under ./fixtures/vcr_cassettes are all about.
+
+To do a real test, just look at how the spec does it.  Basically:
+
+$ irb
+> require "./lib/gumtree"
+> gumtree = Gumtree.new("capetown-westerncape", "<YOUR USERNAME>", "<YOUR PASSWORD>")
+=> lots inspect output
+> gumtree.connected?
+=> true 
+> params = {"Title" => "Red chair", etc, etc, look at rspec for full list}
+=> {"PreviewAd"=>"", "ChangeCategory"=>"",...
+> gumtree.post_ad(params)
+=> booyow
+
+
+I leave the rest to you.  Next:
+* read through my code.. all of it.  make sure you understand every line.  if there is a line you don't understand, ask.  rspec is its own beast.  read enough to understand my specs but don't worry about diving full head into that yet.
+* fyi, i choose httpclient because it handles cookies magically.  try running a response = httpclient.get on any ol url.. then look at response.cookies.  it saves them in between requests and sends appropriate ones back as needed.  this saved a bunch of effort trying to figure out and save the right cookies (which are used for authentication). 
+* figure out which cookie(s) is the auth cookie.  use a browser with a good cookie manager (like firefox).. login.. search for all the gumtree cookies.. then delete one at a time until a refresh of the page logs you out.
+
+After that, I see a bunch that can keep you going for a while:
+* Implement delete_ad.  Screenshot hint attached.  (fyi, most destructive calls are POSTs but theirs is not.. just one of their many webapp oddities).  Remember.. it is impossible for them to hide anything from you.  Even if it means 3 layers of redirects for authentication (which is true).  If your browser can do it, your code can do it.  At the end of the day its always just packets.
+* Move the huge params list from rspec into the post_ad.  We should only have to pass in the ones we want to override.. not all the stock/default/not applicable ones.  you'll have to test posting lots of different types of ads to figure out which are which.
+* add checking on post_ad for which params are required according to gumtree.  these will likely vary by type.  raise an exception if they are missing before even trying to hit gumtree.
+* start adding namespaced symbols for the different id fields.  for instance I want to be able to say "CatId" => Gumtree::Categories::HOME_GARDEN_FURNITURE instead of "9181".
+* add a similar list for "SubArea" and "Neighborhood".  Subarea not only needs codes, but also needs a list of Neighborhoods allowed for nesting.
+* Add a check before posting that the neighborhood code is in fact contained within the subarea.
+* after post_ad and delete_ad are robust enough.. implement GumtreeAd.repost.
+
+finally, try doing it TDD.  write how you want it to behave first, either in tests or at the command line, then implement the code.  I started in rspec then went to the lib file.. then back to rspec. etc.
+
+hope that helps.  this was fun. :)
+
+Rob
+
+PS- thanks for the vpn.
+
+oh, almost forgot.. when this library is done (we'll probably make it a gem)... the next project will be a command-line tool that uses the gem.  this is enforces code isolation and is simpler than a full blown webapp.. and just as useful :)  (you'll also need to implement Gumtree.active_ads which queries for existing ads, parses html (check out nokogiri) and returns a list of GumtreeAd objects.  this is a common approach.. your use of it, in this case gumtree-cli, drives further library enhancement in gumtree lib).
+
+so imagine gumtree-cli gem/library, which does a require "gumtree".  off the top of my head i think i'd want something like this (modeled off of heroku's gem and/or redis-cli):
+
+$ gumtree login
+Username: rob4manhere@gmail.com
+Password:
+<stored to a .gumtree-credentials file or something and is no longer prompted.  if its not there and i try a command below, i am prompted for login>
+
+$ gumtree ads:active
+1234) Title of first listing         100R          DATE?
+2535) Title of second listing       4000R          DATE?
+
+$ gumtree ads:repost 2535
+Deleting 2535... ok.
+Posting "Title of second listing"... ok.
+Reposted. New ad id is 23852.
+
+$ gumtree ads:create --title "My new title"
+What category?
+[1891] Furniture
+[2342] Yada
+[2394] Yada
+Enter Category: 1891  (or maybe Furniture too?)
+Enter Cost (R): 1000
+Posted. New ad id is 23852.
+
+Anything could be passed in as an argument (like --cost or --category) allowing it to be fully scripted.
+
+anyway.. thats my usual process.  start with what you want and work backwards (outside in).
+
