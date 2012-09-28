@@ -1,0 +1,1 @@
+The auth cookie is linked to gumtree.co.za which is the base domain and it's name is na yes just "na"
