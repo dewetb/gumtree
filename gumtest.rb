@@ -46,4 +46,6 @@ params = {
 
 #@gumtree = Gumtree.new("capetown-westerncape", ENV.fetch("GUMTREE_USERNAME"), ENV.fetch("GUMTREE_PASSWORD"))
 gumtree_ad = gumtree.post_ad(params)
+thisad = gumtree_ad.id
 p(gumtree_ad.id)
+gumtree.delete_ad(thisad)

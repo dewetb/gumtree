@@ -47,6 +47,7 @@ class Gumtree
 
     # Grab AdId from redirect
     if matches = post_redirect.match(/#{@base_url}\/c-ActivateAd\?AdId=(\d+)&Guid=[0-9a-f-]+&InstAct=true/)
+      puts(matches) #trying to grok what's happening here
       ad_id = matches[1]
     else
       raise "Unexpected post_ad response with 'Location' #{post_redirect}"
@@ -65,7 +66,21 @@ class Gumtree
   end
 
   def delete_ad(ad_id)
-    raise "Not implemented yet."
+    # 1. Visit ad page
+    search = {"Keyword" => ad_id}   
+    ad_response = @http_client.post(@base_url, search, { "User-Agent" => USER_AGENT })
+    #ad_redirect = ad_response.headers.fetch("")
+    headerhash = ad_response.headers
+    puts(headerhash)
+    
+    
+=begin
+    
+    if matches = ad_redirect.match(/#{@base_url}\/c-AdDetails\?AdId=(\d+)&Guid=[0-9a-f-]/)
+      puts(matches) #trying to grok what's happening here
+    end
+    puts(ad_page.class)
+=end
   end
 
   def build_ad(id, params={})
