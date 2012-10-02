@@ -16,3 +16,10 @@ tmp
 .yardoc
 _yardoc
 doc/
+.DS_Store
+Gumproject.tmproj
+*.swp
+notes_from_rob.txt
+search_ad.rb
+gumtest.rb
+notes.txt
