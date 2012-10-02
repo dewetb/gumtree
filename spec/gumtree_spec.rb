@@ -56,8 +56,6 @@ describe Gumtree do
   end
 
   it "should delete ads" do
-    it "should navigate to the ad page"do
-    end
   
     VCR.use_cassette("gumtree-delete_ad") do
       @gumtree = Gumtree.new("capetown-westerncape", ENV.fetch("GUMTREE_USERNAME"), ENV.fetch("GUMTREE_PASSWORD"))

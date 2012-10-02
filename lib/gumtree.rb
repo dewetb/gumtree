@@ -47,7 +47,6 @@ class Gumtree
 
     # Grab AdId from redirect
     if matches = post_redirect.match(/#{@base_url}\/c-ActivateAd\?AdId=(\d+)&Guid=[0-9a-f-]+&InstAct=true/)
-      puts(matches) #trying to grok what's happening here
       ad_id = matches[1]
     else
       raise "Unexpected post_ad response with 'Location' #{post_redirect}"
@@ -66,21 +65,47 @@ class Gumtree
   end
 
   def delete_ad(ad_id)
-    # 1. Visit ad page
-    search = {"Keyword" => ad_id}   
-    ad_response = @http_client.post(@base_url, search, { "User-Agent" => USER_AGENT })
-    #ad_redirect = ad_response.headers.fetch("")
-    headerhash = ad_response.headers
-    puts(headerhash)
+  
+    # 1. Delete the ad
+    delete_url = "#{@base_url}/c-MyAds?Action=DELETE_ADS&Mode=ACTIVE&RowId=#{ad_id}&SurveyResponse=4"
+    delete_ad = @http_client.get(delete_url, nil, { "User-Agent" => USER_AGENT })
     
-    
+
 =begin
+Here is some non-working code where I am trying to verify the ad is deleted
+    # 2. Verify that the ad was deleted    
+    ad_deleted_url = "#{@base_url}/c-MyAds?Action=DELETE_ADS&Mode=ACTIVE&RowId=#{ad_id}&SurveyResponse=4"
+      
+    ad_deleted = @http_client.get(ad_deleted_url, nil, { "User-Agent" => USER_AGENT })
+    puts(ad_deleted.header)
+    #raise "Unexpected 'Ad Deleted' URL" unless activate_redirect.match(/#{@base_url}\/c-ViewAd\?AdId=#{ad_id}.*/)
     
-    if matches = ad_redirect.match(/#{@base_url}\/c-AdDetails\?AdId=(\d+)&Guid=[0-9a-f-]/)
-      puts(matches) #trying to grok what's happening here
-    end
-    puts(ad_page.class)
+    
+    #ad_redirect = ad_response.headers.fetch("")
+    #headerhash = search_redirect.headers
+    #puts(headerhash)
 =end
+
+# Here is some working code to search for an ad that I realized I don't need to delete ads
+# It might be useful in verifying that the ad has been deleted
+
+=begin
+# 1. URL To search for ad
+    ad_url = "#{@base_url}/f-SearchAdRedirect?isSearchForm=true&Keyword=#{ad_id}"
+    
+    # 2. Follow first redirect
+    search_response = @http_client.get(ad_url, nil, { "User-Agent" => USER_AGENT })
+    search_redirect = search_response.headers.fetch("Location")
+    #puts("The search_redirect is #{search_redirect}")
+    
+    # 3. Follow second redirect
+    search_second_response = @http_client.get(search_redirect, nil, { "User-Agent" => USER_AGENT })
+    ad_page = search_second_response.headers.fetch("Location")
+    puts("The ad_page is #{ad_page}")
+=end
+
+
+    
   end
 
   def build_ad(id, params={})
