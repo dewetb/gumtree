@@ -39,7 +39,39 @@ class Gumtree
     @connected
   end
 
-  def post_ad(params)
+  def post_ad(user_params)
+    
+    default_params = {
+      "PreviewAd" => "",
+      "ChangeCategory" => "",
+      "ShowTerms" => "",
+      "ChangePhoto" => "",
+      "Phone" => "",
+      "AdId" => "",
+      "Guid" => "",
+      "SurveyResponse" => "",
+      "extraInfo" => "",
+      "useBasicUpload" => "false",
+      "RequestRefererUrl" => "%252C%2C%252C",
+      "ReformattedDesc" => "0",
+      "AdType" => "1",
+      "A_ForSaleBy" => "ownr",
+      "Photo" => "",
+      "AddressStreet" => "",
+      "AddressCity" => "",
+      "AddressRegion" => "",
+      "AddressZip" => "",
+      "AddressConfidenceLevel" => "0",
+      "AddressLatitude" => "",
+      "AddressLongitude" => "",
+      "AddressCounty" => "",
+      "AddressSelectedByUser" => "false",
+      "featuredAdDuration" => "0",
+      "text_loading" => "Loading...",
+    }
+    
+    params = default_params.merge(user_params)
+    
     # 1. Post it
     post_ad_url = "#{@base_url}/c-PostAd"
     post_response = @http_client.post(post_ad_url, params, { "User-Agent" => USER_AGENT })
