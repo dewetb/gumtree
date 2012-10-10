@@ -18,15 +18,15 @@ http_interactions:
     headers:
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTcwXmd1aWQ9MkFRQUFB
-        VGdPNmM0QUFNNEFNREUzTldZd1lUUmtMVFUxTlRZdE5EUmtNQzA1TXpSbExX
-        UTJOemN4WWpFMk5qTXhNeTB4TTJFeU16TTBaRFF6TllHc2dxZ25UMmxWUHUz
-        aFpJcloxRktoMGZZTDsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
-        PVdlZCwgMDItT2N0LTIwMTMgMjA6Mzk6NTUgR01UOyBQYXRoPS8=
+        YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTU1Xmd1aWQ9MkFRQUFB
+        VGdPNmM0QUFNNEFNR1F6WWpkbU1ESXpMVEF5TW1RdE5ERXhZaTA1TXpKaUxU
+        azFNR1ptTURGaE5ETTNOeTB4TTJFMFlqaGtZVE5qTVZaMFg1U1NuYlVOR0ky
+        cDNJQmVEYnVmWWNuazsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
+        PVRodSwgMTAtT2N0LTIwMTMgMTY6NDE6NDQgR01UOyBQYXRoPS8=
       - !binary |-
-        Y2xzLWxhc3QtdmlzaXQ9MTM0OTIxMDM5NTcwNzsgRG9tYWluPWNhcGV0b3du
-        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9V2VkLCAwMi1P
-        Y3QtMjAxMyAyMDozOTo1NSBHTVQ7IFBhdGg9Lw==
+        Y2xzLWxhc3QtdmlzaXQ9MTM0OTg4NzMwNDY0ODsgRG9tYWluPWNhcGV0b3du
+        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9VGh1LCAxMC1P
+        Y3QtMjAxMyAxNjo0MTo0NCBHTVQ7IFBhdGg9Lw==
       !binary "UDNw":
       - !binary |-
         Q1A9IkNBTyBQU0EgT1VSIg==
@@ -41,7 +41,7 @@ http_interactions:
         QWNjZXB0LUVuY29kaW5n
       !binary "RGF0ZQ==":
       - !binary |-
-        VHVlLCAwMiBPY3QgMjAxMiAyMDozOTo1NSBHTVQ=
+        V2VkLCAxMCBPY3QgMjAxMiAxNjo0MTo0NCBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         Y29uZmlkZW50aWFs
@@ -362,7 +362,7 @@ http_interactions:
         End-TAIL JS\r\n\t</script>\r\n\t\r\n\t\r\n\t <!-- customJs -->\r\n     \r\n\t<!--
         End of HtmlPageTail -->\r\n</body>\r\n</html>\r\n\r\n"
     http_version: 
-  recorded_at: Tue, 02 Oct 2012 20:39:56 GMT
+  recorded_at: Wed, 10 Oct 2012 16:41:45 GMT
 - request:
     method: post
     uri: https://secure.gumtree.co.za/capetown-westerncape/s-SignIn
@@ -379,7 +379,7 @@ http_interactions:
       Content-Type:
       - application/x-www-form-urlencoded
       Cookie:
-      - area_preference=Vrandom_marker=70^guid=2AQAAATgO6c4AAM4AMDE3NWYwYTRkLTU1NTYtNDRkMC05MzRlLWQ2NzcxYjE2NjMxMy0xM2EyMzM0ZDQzNYGsgqgnT2lVPu3hZIrZ1FKh0fYL
+      - area_preference=Vrandom_marker=55^guid=2AQAAATgO6c4AAM4AMGQzYjdmMDIzLTAyMmQtNDExYi05MzJiLTk1MGZmMDFhNDM3Ny0xM2E0YjhkYTNjMVZ0X5SSnbUNGI2p3IBeDbufYcnk
   response:
     status:
       code: 302
@@ -388,26 +388,26 @@ http_interactions:
     headers:
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTcwXmd1aWQ9MkFRQUFB
-        VGdPNmM0QUFNNEFNREUzTldZd1lUUmtMVFUxTlRZdE5EUmtNQzA1TXpSbExX
-        UTJOemN4WWpFMk5qTXhNeTB4TTJFeU16TTBaRFF6TllHc2dxZ25UMmxWUHUz
-        aFpJcloxRktoMGZZTDsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
-        PVdlZCwgMDItT2N0LTIwMTMgMjA6Mzk6NTYgR01UOyBQYXRoPS8=
+        YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTU1Xmd1aWQ9MkFRQUFB
+        VGdPNmM0QUFNNEFNR1F6WWpkbU1ESXpMVEF5TW1RdE5ERXhZaTA1TXpKaUxU
+        azFNR1ptTURGaE5ETTNOeTB4TTJFMFlqaGtZVE5qTVZaMFg1U1NuYlVOR0ky
+        cDNJQmVEYnVmWWNuazsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
+        PVRodSwgMTAtT2N0LTIwMTMgMTY6NDE6NDUgR01UOyBQYXRoPS8=
       - !binary |-
-        Y2xzLWxhc3QtdmlzaXQ9MTM0OTIxMDM5NjI1MDsgRG9tYWluPWNhcGV0b3du
-        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9V2VkLCAwMi1P
-        Y3QtMjAxMyAyMDozOTo1NiBHTVQ7IFBhdGg9Lw==
+        Y2xzLWxhc3QtdmlzaXQ9MTM0OTg4NzMwNTE5ODsgRG9tYWluPWNhcGV0b3du
+        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9VGh1LCAxMC1P
+        Y3QtMjAxMyAxNjo0MTo0NSBHTVQ7IFBhdGg9Lw==
       - !binary |-
         a3VpZD1WaXNmYj1mYWxzZTsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBQYXRo
         PS8=
       - !binary |-
-        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNkl6VFdW
-        d0FBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
-        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrT1RFeU1qa2tlR2xoWTNZ
-        MlV6VmtMelZVWm5VMlNUWjFMMDkxTHdBQUFUb2pOTlpadkpZYkNybWIydVox
-        SFNTREVNVjBFcGlxTDhFKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
-        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U2F0LCAwMS1EZWMtMjAxMiAyMDoz
-        OTo1NiBHTVQ7IFBhdGg9Lw==
+        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNlM0Mmw3
+        QUFBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
+        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTlRJME16VWtOR1V5VTI5
+        VU9ITm1OR1EzUm5sSGNsVm1hM2xUTVFBQUFUcExqYVh1RTNsYzU0UHNMbW5G
+        UHpja1pNbmVEMnZpTHhJKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
+        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U3VuLCAwOS1EZWMtMjAxMiAxNjo0
+        MTo0NSBHTVQ7IFBhdGg9Lw==
       !binary "TG9jYXRpb24=":
       - !binary |-
         aHR0cHM6Ly9zZWN1cmUuZ3VtdHJlZS5jby56YS9jYXBldG93bi13ZXN0ZXJu
@@ -423,7 +423,7 @@ http_interactions:
         QWNjZXB0LUVuY29kaW5n
       !binary "RGF0ZQ==":
       - !binary |-
-        VHVlLCAwMiBPY3QgMjAxMiAyMDozOTo1NSBHTVQ=
+        V2VkLCAxMCBPY3QgMjAxMiAxNjo0MTo0NSBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         Y29uZmlkZW50aWFs
@@ -431,7 +431,7 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Tue, 02 Oct 2012 20:39:56 GMT
+  recorded_at: Wed, 10 Oct 2012 16:41:45 GMT
 - request:
     method: get
     uri: https://secure.gumtree.co.za/capetown-westerncape/s-SignInVerify
@@ -443,8 +443,8 @@ http_interactions:
       - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.1 (KHTML, like
         Gecko) Chrome/21.0.1180.89 Safari/537.1
       Cookie:
-      - area_preference=Vrandom_marker=70^guid=2AQAAATgO6c4AAM4AMDE3NWYwYTRkLTU1NTYtNDRkMC05MzRlLWQ2NzcxYjE2NjMxMy0xM2EyMzM0ZDQzNYGsgqgnT2lVPu3hZIrZ1FKh0fYL;
-        kuid=Visfb=false; na=Vug=ZGV3ZXRi^na=2AQAAATnRhkAAAMoAAAE6IzTWVwAAAAABdPGbAQEABmRld2V0YgAfJDEkOTE4NzIkcnBjMnJKMGoycEdieWNiTTVtV2FWMAAfJDEkOTEyMjkkeGlhY3Y2UzVkLzVUZnU2STZ1L091LwAAATojNNZZvJYbCrmb2uZ1HSSDEMV0EpiqL8E*^keep_logged_in=true
+      - area_preference=Vrandom_marker=55^guid=2AQAAATgO6c4AAM4AMGQzYjdmMDIzLTAyMmQtNDExYi05MzJiLTk1MGZmMDFhNDM3Ny0xM2E0YjhkYTNjMVZ0X5SSnbUNGI2p3IBeDbufYcnk;
+        kuid=Visfb=false; na=Vug=ZGV3ZXRi^na=2AQAAATnRhkAAAMoAAAE6S42l7AAAAAABdPGbAQEABmRld2V0YgAfJDEkOTE4NzIkcnBjMnJKMGoycEdieWNiTTVtV2FWMAAfJDEkNTI0MzUkNGUyU29UOHNmNGQ3RnlHclVma3lTMQAAATpLjaXuE3lc54PsLmnFPzckZMneD2viLxI*^keep_logged_in=true
   response:
     status:
       code: 302
@@ -453,26 +453,26 @@ http_interactions:
     headers:
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTcwXmd1aWQ9MkFRQUFB
-        VGdPNmM0QUFNNEFNREUzTldZd1lUUmtMVFUxTlRZdE5EUmtNQzA1TXpSbExX
-        UTJOemN4WWpFMk5qTXhNeTB4TTJFeU16TTBaRFF6TllHc2dxZ25UMmxWUHUz
-        aFpJcloxRktoMGZZTDsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
-        PVdlZCwgMDItT2N0LTIwMTMgMjA6Mzk6NTYgR01UOyBQYXRoPS8=
+        YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTU1Xmd1aWQ9MkFRQUFB
+        VGdPNmM0QUFNNEFNR1F6WWpkbU1ESXpMVEF5TW1RdE5ERXhZaTA1TXpKaUxU
+        azFNR1ptTURGaE5ETTNOeTB4TTJFMFlqaGtZVE5qTVZaMFg1U1NuYlVOR0ky
+        cDNJQmVEYnVmWWNuazsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
+        PVRodSwgMTAtT2N0LTIwMTMgMTY6NDE6NDUgR01UOyBQYXRoPS8=
       - !binary |-
-        Y2xzLWxhc3QtdmlzaXQ9MTM0OTIxMDM5NjQ4NzsgRG9tYWluPWNhcGV0b3du
-        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9V2VkLCAwMi1P
-        Y3QtMjAxMyAyMDozOTo1NiBHTVQ7IFBhdGg9Lw==
+        Y2xzLWxhc3QtdmlzaXQ9MTM0OTg4NzMwNTUzMTsgRG9tYWluPWNhcGV0b3du
+        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9VGh1LCAxMC1P
+        Y3QtMjAxMyAxNjo0MTo0NSBHTVQ7IFBhdGg9Lw==
       - !binary |-
         a3VpZD1WaXNmYj1mYWxzZTsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBQYXRo
         PS8=
       - !binary |-
-        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNkl6VFhQ
-        UUFBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
-        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrT1RFeU1qa2tlR2xoWTNZ
-        MlV6VmtMelZVWm5VMlNUWjFMMDkxTHdBQUFUb2pOTlpaTmx0a2xreTNZcXk2
-        OGgvSjFJZkVmMktwVFBrKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
-        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U2F0LCAwMS1EZWMtMjAxMiAyMDoz
-        OTo1NiBHTVQ7IFBhdGg9Lw==
+        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNlM0Mm5N
+        d0FBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
+        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTlRJME16VWtOR1V5VTI5
+        VU9ITm1OR1EzUm5sSGNsVm1hM2xUTVFBQUFUcExqYVh1S0xKNFNtRXl1eFhK
+        cTVCTGN0dnl2QTNYclFVKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
+        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U3VuLCAwOS1EZWMtMjAxMiAxNjo0
+        MTo0NSBHTVQ7IFBhdGg9Lw==
       !binary "TG9jYXRpb24=":
       - !binary |-
         aHR0cDovL2NhcGV0b3duLXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE=
@@ -487,7 +487,7 @@ http_interactions:
         QWNjZXB0LUVuY29kaW5n
       !binary "RGF0ZQ==":
       - !binary |-
-        VHVlLCAwMiBPY3QgMjAxMiAyMDozOTo1NiBHTVQ=
+        V2VkLCAxMCBPY3QgMjAxMiAxNjo0MTo0NCBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         Y29uZmlkZW50aWFs
@@ -495,5 +495,5 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Tue, 02 Oct 2012 20:39:56 GMT
+  recorded_at: Wed, 10 Oct 2012 16:41:45 GMT
 recorded_with: VCR 2.2.5

@@ -18,15 +18,15 @@ http_interactions:
     headers:
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTY5Xmd1aWQ9MkFRQUFB
-        VGdPNmM0QUFNNEFNRFExWkRoaU5EWTVMVEV5TlRFdE5EQmpZaTA0TVdZd0xU
-        QmhNRGRpWXpnME1EWTBNaTB4TTJFeU16TTBaR0prTU1RTTgwQnAzYm81QWwv
-        S2NpWlhLeDRmRk1FNTsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
-        PVdlZCwgMDItT2N0LTIwMTMgMjA6Mzk6NTcgR01UOyBQYXRoPS8=
+        YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTcxXmd1aWQ9MkFRQUFB
+        VGdPNmM0QUFNNEFNRGRrT0RNd09HSTBMVGt4WkdRdE5HVTBOeTA0TkRjNUxU
+        bG1OamMyWTJSbFl6QTBNUzB4TTJFMFlqaGtZV0psTTN2aG9NdHowTkMzMGFG
+        VS9SaVhsbnhLR1d1dzsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
+        PVRodSwgMTAtT2N0LTIwMTMgMTY6NDE6NDYgR01UOyBQYXRoPS8=
       - !binary |-
-        Y2xzLWxhc3QtdmlzaXQ9MTM0OTIxMDM5NzY1NDsgRG9tYWluPWNhcGV0b3du
-        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9V2VkLCAwMi1P
-        Y3QtMjAxMyAyMDozOTo1NyBHTVQ7IFBhdGg9Lw==
+        Y2xzLWxhc3QtdmlzaXQ9MTM0OTg4NzMwNjcyOTsgRG9tYWluPWNhcGV0b3du
+        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9VGh1LCAxMC1P
+        Y3QtMjAxMyAxNjo0MTo0NiBHTVQ7IFBhdGg9Lw==
       !binary "UDNw":
       - !binary |-
         Q1A9IkNBTyBQU0EgT1VSIg==
@@ -41,7 +41,7 @@ http_interactions:
         QWNjZXB0LUVuY29kaW5n
       !binary "RGF0ZQ==":
       - !binary |-
-        VHVlLCAwMiBPY3QgMjAxMiAyMDozOTo1NyBHTVQ=
+        V2VkLCAxMCBPY3QgMjAxMiAxNjo0MTo0NSBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         Y29uZmlkZW50aWFs
@@ -362,7 +362,7 @@ http_interactions:
         End-TAIL JS\r\n\t</script>\r\n\t\r\n\t\r\n\t <!-- customJs -->\r\n     \r\n\t<!--
         End of HtmlPageTail -->\r\n</body>\r\n</html>\r\n\r\n"
     http_version: 
-  recorded_at: Tue, 02 Oct 2012 20:39:58 GMT
+  recorded_at: Wed, 10 Oct 2012 16:41:47 GMT
 - request:
     method: post
     uri: https://secure.gumtree.co.za/capetown-westerncape/s-SignIn
@@ -379,7 +379,7 @@ http_interactions:
       Content-Type:
       - application/x-www-form-urlencoded
       Cookie:
-      - area_preference=Vrandom_marker=69^guid=2AQAAATgO6c4AAM4AMDQ1ZDhiNDY5LTEyNTEtNDBjYi04MWYwLTBhMDdiYzg0MDY0Mi0xM2EyMzM0ZGJkMMQM80Bp3bo5Al/KciZXKx4fFME5
+      - area_preference=Vrandom_marker=71^guid=2AQAAATgO6c4AAM4AMDdkODMwOGI0LTkxZGQtNGU0Ny04NDc5LTlmNjc2Y2RlYzA0MS0xM2E0YjhkYWJlM3vhoMtz0NC30aFU/RiXlnxKGWuw
   response:
     status:
       code: 302
@@ -388,26 +388,26 @@ http_interactions:
     headers:
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTY5Xmd1aWQ9MkFRQUFB
-        VGdPNmM0QUFNNEFNRFExWkRoaU5EWTVMVEV5TlRFdE5EQmpZaTA0TVdZd0xU
-        QmhNRGRpWXpnME1EWTBNaTB4TTJFeU16TTBaR0prTU1RTTgwQnAzYm81QWwv
-        S2NpWlhLeDRmRk1FNTsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
-        PVdlZCwgMDItT2N0LTIwMTMgMjA6Mzk6NTggR01UOyBQYXRoPS8=
+        YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTcxXmd1aWQ9MkFRQUFB
+        VGdPNmM0QUFNNEFNRGRrT0RNd09HSTBMVGt4WkdRdE5HVTBOeTA0TkRjNUxU
+        bG1OamMyWTJSbFl6QTBNUzB4TTJFMFlqaGtZV0psTTN2aG9NdHowTkMzMGFG
+        VS9SaVhsbnhLR1d1dzsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
+        PVRodSwgMTAtT2N0LTIwMTMgMTY6NDE6NDcgR01UOyBQYXRoPS8=
       - !binary |-
-        Y2xzLWxhc3QtdmlzaXQ9MTM0OTIxMDM5ODI5MjsgRG9tYWluPWNhcGV0b3du
-        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9V2VkLCAwMi1P
-        Y3QtMjAxMyAyMDozOTo1OCBHTVQ7IFBhdGg9Lw==
+        Y2xzLWxhc3QtdmlzaXQ9MTM0OTg4NzMwNzMxNTsgRG9tYWluPWNhcGV0b3du
+        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9VGh1LCAxMC1P
+        Y3QtMjAxMyAxNjo0MTo0NyBHTVQ7IFBhdGg9Lw==
       - !binary |-
         a3VpZD1WaXNmYj1mYWxzZTsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBQYXRo
         PS8=
       - !binary |-
-        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNkl6VGVV
-        Z0FBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
-        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTlRVMk56a2taRFJSV1ZW
-        eE0yUTBTbEZLVjFwUU9TNHlkRmRUTGdBQUFUb2pOTjVVUkZ0MFllc1NHMCsw
-        bXNHT05qUkV0bVhzWkFZKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
-        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U2F0LCAwMS1EZWMtMjAxMiAyMDoz
-        OTo1OCBHTVQ7IFBhdGg9Lw==
+        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNlM0MnVN
+        UUFBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
+        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTkRrMU1EUWtZelIxYmxN
+        eGQycG5kR0pvVDNZMFprbG5RMGx2TVFBQUFUcExqYTR6dWhYczcxVTkvdGdm
+        OUlIYXNFTjB3QU4wbktBKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
+        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U3VuLCAwOS1EZWMtMjAxMiAxNjo0
+        MTo0NyBHTVQ7IFBhdGg9Lw==
       !binary "TG9jYXRpb24=":
       - !binary |-
         aHR0cHM6Ly9zZWN1cmUuZ3VtdHJlZS5jby56YS9jYXBldG93bi13ZXN0ZXJu
@@ -423,7 +423,7 @@ http_interactions:
         QWNjZXB0LUVuY29kaW5n
       !binary "RGF0ZQ==":
       - !binary |-
-        VHVlLCAwMiBPY3QgMjAxMiAyMDozOTo1OCBHTVQ=
+        V2VkLCAxMCBPY3QgMjAxMiAxNjo0MTo0NiBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         Y29uZmlkZW50aWFs
@@ -431,7 +431,7 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Tue, 02 Oct 2012 20:39:58 GMT
+  recorded_at: Wed, 10 Oct 2012 16:41:47 GMT
 - request:
     method: get
     uri: https://secure.gumtree.co.za/capetown-westerncape/s-SignInVerify
@@ -443,8 +443,8 @@ http_interactions:
       - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.1 (KHTML, like
         Gecko) Chrome/21.0.1180.89 Safari/537.1
       Cookie:
-      - area_preference=Vrandom_marker=69^guid=2AQAAATgO6c4AAM4AMDQ1ZDhiNDY5LTEyNTEtNDBjYi04MWYwLTBhMDdiYzg0MDY0Mi0xM2EyMzM0ZGJkMMQM80Bp3bo5Al/KciZXKx4fFME5;
-        kuid=Visfb=false; na=Vug=ZGV3ZXRi^na=2AQAAATnRhkAAAMoAAAE6IzTeUgAAAAABdPGbAQEABmRld2V0YgAfJDEkOTE4NzIkcnBjMnJKMGoycEdieWNiTTVtV2FWMAAfJDEkNTU2NzkkZDRRWVVxM2Q0SlFKV1pQOS4ydFdTLgAAATojNN5URFt0YesSG0+0msGONjREtmXsZAY*^keep_logged_in=true
+      - area_preference=Vrandom_marker=71^guid=2AQAAATgO6c4AAM4AMDdkODMwOGI0LTkxZGQtNGU0Ny04NDc5LTlmNjc2Y2RlYzA0MS0xM2E0YjhkYWJlM3vhoMtz0NC30aFU/RiXlnxKGWuw;
+        kuid=Visfb=false; na=Vug=ZGV3ZXRi^na=2AQAAATnRhkAAAMoAAAE6S42uMQAAAAABdPGbAQEABmRld2V0YgAfJDEkOTE4NzIkcnBjMnJKMGoycEdieWNiTTVtV2FWMAAfJDEkNDk1MDQkYzR1blMxd2pndGJoT3Y0ZklnQ0lvMQAAATpLja4zuhXs71U9/tgf9IHasEN0wAN0nKA*^keep_logged_in=true
   response:
     status:
       code: 302
@@ -453,26 +453,26 @@ http_interactions:
     headers:
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTY5Xmd1aWQ9MkFRQUFB
-        VGdPNmM0QUFNNEFNRFExWkRoaU5EWTVMVEV5TlRFdE5EQmpZaTA0TVdZd0xU
-        QmhNRGRpWXpnME1EWTBNaTB4TTJFeU16TTBaR0prTU1RTTgwQnAzYm81QWwv
-        S2NpWlhLeDRmRk1FNTsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
-        PVdlZCwgMDItT2N0LTIwMTMgMjA6Mzk6NTggR01UOyBQYXRoPS8=
+        YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTcxXmd1aWQ9MkFRQUFB
+        VGdPNmM0QUFNNEFNRGRrT0RNd09HSTBMVGt4WkdRdE5HVTBOeTA0TkRjNUxU
+        bG1OamMyWTJSbFl6QTBNUzB4TTJFMFlqaGtZV0psTTN2aG9NdHowTkMzMGFG
+        VS9SaVhsbnhLR1d1dzsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
+        PVRodSwgMTAtT2N0LTIwMTMgMTY6NDE6NDcgR01UOyBQYXRoPS8=
       - !binary |-
-        Y2xzLWxhc3QtdmlzaXQ9MTM0OTIxMDM5ODYwNDsgRG9tYWluPWNhcGV0b3du
-        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9V2VkLCAwMi1P
-        Y3QtMjAxMyAyMDozOTo1OCBHTVQ7IFBhdGg9Lw==
+        Y2xzLWxhc3QtdmlzaXQ9MTM0OTg4NzMwNzU2NzsgRG9tYWluPWNhcGV0b3du
+        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9VGh1LCAxMC1P
+        Y3QtMjAxMyAxNjo0MTo0NyBHTVQ7IFBhdGg9Lw==
       - !binary |-
         a3VpZD1WaXNmYj1mYWxzZTsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBQYXRo
         PS8=
       - !binary |-
-        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNkl6VGZn
-        UUFBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
-        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTlRVMk56a2taRFJSV1ZW
-        eE0yUTBTbEZLVjFwUU9TNHlkRmRUTGdBQUFUb2pOTjVVSmZDZjVUb2FIUWZX
-        L01GcDNYZkpTZHlzb2ZjKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
-        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U2F0LCAwMS1EZWMtMjAxMiAyMDoz
-        OTo1OCBHTVQ7IFBhdGg9Lw==
+        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNlM0MnZK
+        d0FBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
+        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTkRrMU1EUWtZelIxYmxN
+        eGQycG5kR0pvVDNZMFprbG5RMGx2TVFBQUFUcExqYTR6UW90RTV3VWREUUJY
+        clhvU0xudWxuUDRRU280Kl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
+        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U3VuLCAwOS1EZWMtMjAxMiAxNjo0
+        MTo0NyBHTVQ7IFBhdGg9Lw==
       !binary "TG9jYXRpb24=":
       - !binary |-
         aHR0cDovL2NhcGV0b3duLXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE=
@@ -487,7 +487,7 @@ http_interactions:
         QWNjZXB0LUVuY29kaW5n
       !binary "RGF0ZQ==":
       - !binary |-
-        VHVlLCAwMiBPY3QgMjAxMiAyMDozOTo1OCBHTVQ=
+        V2VkLCAxMCBPY3QgMjAxMiAxNjo0MTo0NyBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         Y29uZmlkZW50aWFs
@@ -495,7 +495,7 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Tue, 02 Oct 2012 20:39:58 GMT
+  recorded_at: Wed, 10 Oct 2012 16:41:47 GMT
 - request:
     method: post
     uri: http://capetown-westerncape.gumtree.co.za/c-PostAd
@@ -503,20 +503,20 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         UHJldmlld0FkPSZDaGFuZ2VDYXRlZ29yeT0mU2hvd1Rlcm1zPSZDaGFuZ2VQ
-        aG90bz0mQWRJZD0mR3VpZD0mU3VydmV5UmVzcG9uc2U9JkNhdElkPTkxODEm
-        ZXh0cmFJbmZvPSZ1c2VCYXNpY1VwbG9hZD1mYWxzZSZSZXF1ZXN0UmVmZXJl
-        clVybD0lMjUyNTJDJTI1MkMlMjUyNTJDJlJlZm9ybWF0dGVkRGVzYz0wJkFk
-        VHlwZT0xJlByaWNlQWx0ZXJuYXRpdmU9MyZBX0ZvclNhbGVCeT1vd25yJlRp
-        dGxlPVJlZCt0d28rc2VhdGVyK3NvZmErYW5kK2RpZmZlcmVudCthcm1jaGFp
-        ciZEZXNjcmlwdGlvbj1SZWQrdHdvK3NlYXRlcitzb2ZhK2FuZCtkaWZmZXJl
-        bnQrYXJtY2hhaXIuK1JlZCt0d28rc2VhdGVyK3NvZmErYW5kK2RpZmZlcmVu
-        dCthcm1jaGFpci4mUGhvdG89JkVtYWlsPWRld2V0YmxvbWVydXMlNDBnbWFp
-        bC5jb20mUGhvbmU9JlN1YkFyZWE9MzEwMDI0MCZNYXBBZGRyZXNzPVNvdXRo
-        K0FmcmljYSZBZGRyZXNzU3RyZWV0PSZBZGRyZXNzQ2l0eT0mQWRkcmVzc1Jl
-        Z2lvbj0mQWRkcmVzc1ppcD0mQWRkcmVzc0NvbmZpZGVuY2VMZXZlbD0wJkFk
-        ZHJlc3NMYXRpdHVkZT0mQWRkcmVzc0xvbmdpdHVkZT0mQWRkcmVzc0NvdW50
-        eT0mQWRkcmVzc1NlbGVjdGVkQnlVc2VyPWZhbHNlJmZlYXR1cmVkQWREdXJh
-        dGlvbj0wJnRleHRfbG9hZGluZz1Mb2FkaW5nLi4u
+        aG90bz0mUGhvbmU9JkFkSWQ9Jkd1aWQ9JlN1cnZleVJlc3BvbnNlPSZleHRy
+        YUluZm89JnVzZUJhc2ljVXBsb2FkPWZhbHNlJlJlcXVlc3RSZWZlcmVyVXJs
+        PSUyNTI1MkMlMjUyQyUyNTI1MkMmUmVmb3JtYXR0ZWREZXNjPTAmQWRUeXBl
+        PTEmQV9Gb3JTYWxlQnk9b3duciZQaG90bz0mQWRkcmVzc1N0cmVldD0mQWRk
+        cmVzc0NpdHk9JkFkZHJlc3NSZWdpb249JkFkZHJlc3NaaXA9JkFkZHJlc3ND
+        b25maWRlbmNlTGV2ZWw9MCZBZGRyZXNzTGF0aXR1ZGU9JkFkZHJlc3NMb25n
+        aXR1ZGU9JkFkZHJlc3NDb3VudHk9JkFkZHJlc3NTZWxlY3RlZEJ5VXNlcj1m
+        YWxzZSZmZWF0dXJlZEFkRHVyYXRpb249MCZ0ZXh0X2xvYWRpbmc9TG9hZGlu
+        Zy4uLiZDYXRJZD05MTgxJlRpdGxlPVJlZCt0d28rc2VhdGVyK3NvZmErYW5k
+        K2RpZmZlcmVudCthcm1jaGFpciZEZXNjcmlwdGlvbj1SZWQrdHdvK3NlYXRl
+        citzb2ZhK2FuZCtkaWZmZXJlbnQrYXJtY2hhaXIuK1JlZCt0d28rc2VhdGVy
+        K3NvZmErYW5kK2RpZmZlcmVudCthcm1jaGFpci4mRW1haWw9ZGV3ZXRibG9t
+        ZXJ1cyU0MGdtYWlsLmNvbSZTdWJBcmVhPTMxMDAyNDAmTWFwQWRkcmVzcz1T
+        b3V0aCtBZnJpY2EmUHJpY2U9MTUwMDA=
     headers:
       User-Agent:
       - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.1 (KHTML, like
@@ -524,8 +524,8 @@ http_interactions:
       Content-Type:
       - application/x-www-form-urlencoded
       Cookie:
-      - area_preference=Vrandom_marker=69^guid=2AQAAATgO6c4AAM4AMDQ1ZDhiNDY5LTEyNTEtNDBjYi04MWYwLTBhMDdiYzg0MDY0Mi0xM2EyMzM0ZGJkMMQM80Bp3bo5Al/KciZXKx4fFME5;
-        cls-last-visit=1349210398604; kuid=Visfb=false; na=Vug=ZGV3ZXRi^na=2AQAAATnRhkAAAMoAAAE6IzTfgQAAAAABdPGbAQEABmRld2V0YgAfJDEkOTE4NzIkcnBjMnJKMGoycEdieWNiTTVtV2FWMAAfJDEkNTU2NzkkZDRRWVVxM2Q0SlFKV1pQOS4ydFdTLgAAATojNN5UJfCf5ToaHQfW/MFp3XfJSdysofc*^keep_logged_in=true
+      - area_preference=Vrandom_marker=71^guid=2AQAAATgO6c4AAM4AMDdkODMwOGI0LTkxZGQtNGU0Ny04NDc5LTlmNjc2Y2RlYzA0MS0xM2E0YjhkYWJlM3vhoMtz0NC30aFU/RiXlnxKGWuw;
+        cls-last-visit=1349887307567; kuid=Visfb=false; na=Vug=ZGV3ZXRi^na=2AQAAATnRhkAAAMoAAAE6S42vJwAAAAABdPGbAQEABmRld2V0YgAfJDEkOTE4NzIkcnBjMnJKMGoycEdieWNiTTVtV2FWMAAfJDEkNDk1MDQkYzR1blMxd2pndGJoT3Y0ZklnQ0lvMQAAATpLja4zQotE5wUdDQBXrXoSLnulnP4QSo4*^keep_logged_in=true
   response:
     status:
       code: 302
@@ -535,31 +535,31 @@ http_interactions:
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
         YXJlYV9wcmVmZXJlbmNlPVZteV9ob3VzaW5nX2FkZHRsX3NlY3Rpb249ZmFs
-        c2Vec3ViYXJlYT0zMTAwMjQwXnJhbmRvbV9tYXJrZXI9NjleZ3VpZD0yQVFB
-        QUFUZ082YzRBQU00QU1EUTFaRGhpTkRZNUxURXlOVEV0TkRCallpMDRNV1l3
-        TFRCaE1EZGlZemcwTURZME1pMHhNMkV5TXpNMFpHSmtNTVFNODBCcDNibzVB
-        bC9LY2laWEt4NGZGTUU1OyBEb21haW49Lmd1bXRyZWUuY28uemE7IEV4cGly
-        ZXM9V2VkLCAwMi1PY3QtMjAxMyAyMDozOTo1OSBHTVQ7IFBhdGg9Lw==
+        c2Vec3ViYXJlYT0zMTAwMjQwXnJhbmRvbV9tYXJrZXI9NzFeZ3VpZD0yQVFB
+        QUFUZ082YzRBQU00QU1EZGtPRE13T0dJMExUa3haR1F0TkdVME55MDRORGM1
+        TFRsbU5qYzJZMlJsWXpBME1TMHhNMkUwWWpoa1lXSmxNM3Zob010ejBOQzMw
+        YUZVL1JpWGxueEtHV3V3OyBEb21haW49Lmd1bXRyZWUuY28uemE7IEV4cGly
+        ZXM9VGh1LCAxMC1PY3QtMjAxMyAxNjo0MTo0OCBHTVQ7IFBhdGg9Lw==
       - !binary |-
-        Y2xzLWxhc3QtdmlzaXQ9MTM0OTIxMDM5OTkyNjsgRG9tYWluPWNhcGV0b3du
-        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9V2VkLCAwMi1P
-        Y3QtMjAxMyAyMDozOTo1OSBHTVQ7IFBhdGg9Lw==
+        Y2xzLWxhc3QtdmlzaXQ9MTM0OTg4NzMwODcxMzsgRG9tYWluPWNhcGV0b3du
+        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9VGh1LCAxMC1P
+        Y3QtMjAxMyAxNjo0MTo0OCBHTVQ7IFBhdGg9Lw==
       - !binary |-
         a3VpZD1WaXNmYj1mYWxzZTsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBQYXRo
         PS8=
       - !binary |-
-        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNkl6VGtP
-        UUFBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
-        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTlRVMk56a2taRFJSV1ZW
-        eE0yUTBTbEZLVjFwUU9TNHlkRmRUTGdBQUFUb2pOTjVVTkJYK29la251YUJL
-        eHlVRHA0dm55TE5tQXkwKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
-        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U2F0LCAwMS1EZWMtMjAxMiAyMDoz
-        OTo1OSBHTVQ7IFBhdGg9Lw==
+        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNlM0MnpO
+        Z0FBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
+        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTkRrMU1EUWtZelIxYmxN
+        eGQycG5kR0pvVDNZMFprbG5RMGx2TVFBQUFUcExqYTR6UjNoZG5yQXhjSEpP
+        d2RKdE9NZU5wKzJ0NlV3Kl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
+        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U3VuLCAwOS1EZWMtMjAxMiAxNjo0
+        MTo0OCBHTVQ7IFBhdGg9Lw==
       !binary "TG9jYXRpb24=":
       - !binary |-
         aHR0cDovL2NhcGV0b3duLXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemEvYy1B
-        Y3RpdmF0ZUFkP0FkSWQ9NDE4OTgwNjI0Jkd1aWQ9MTNhMjMzNGUtNDY5MC1h
-        MjBiLTI3MzYtNTAxZmZmZmVjMmRmJkluc3RBY3Q9dHJ1ZQ==
+        Y3RpdmF0ZUFkP0FkSWQ9NDIxMTk0NDIxJkd1aWQ9MTNhNGI4ZGItMzYxMC1h
+        MjBiLTI2NTItNTcyMWZmZmUzYmRmJkluc3RBY3Q9dHJ1ZQ==
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9odG1sO2NoYXJzZXQ9dXRmLTg=
@@ -568,7 +568,7 @@ http_interactions:
         MA==
       !binary "RGF0ZQ==":
       - !binary |-
-        VHVlLCAwMiBPY3QgMjAxMiAyMDozOTo1OSBHTVQ=
+        V2VkLCAxMCBPY3QgMjAxMiAxNjo0MTo0OCBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         Y29uZmlkZW50aWFs
@@ -588,10 +588,10 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Tue, 02 Oct 2012 20:40:00 GMT
+  recorded_at: Wed, 10 Oct 2012 16:41:48 GMT
 - request:
     method: get
-    uri: http://capetown-westerncape.gumtree.co.za/c-ActivateAd?AdId=418980624&Guid=13a2334e-4690-a20b-2736-501ffffec2df&InstAct=true
+    uri: http://capetown-westerncape.gumtree.co.za/c-ActivateAd?AdId=421194421&Guid=13a4b8db-3610-a20b-2652-5721fffe3bdf&InstAct=true
     body:
       encoding: US-ASCII
       string: ''
@@ -600,8 +600,8 @@ http_interactions:
       - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.1 (KHTML, like
         Gecko) Chrome/21.0.1180.89 Safari/537.1
       Cookie:
-      - area_preference=Vmy_housing_addtl_section=false^subarea=3100240^random_marker=69^guid=2AQAAATgO6c4AAM4AMDQ1ZDhiNDY5LTEyNTEtNDBjYi04MWYwLTBhMDdiYzg0MDY0Mi0xM2EyMzM0ZGJkMMQM80Bp3bo5Al/KciZXKx4fFME5;
-        cls-last-visit=1349210398604; kuid=Visfb=false; na=Vug=ZGV3ZXRi^na=2AQAAATnRhkAAAMoAAAE6IzTkOQAAAAABdPGbAQEABmRld2V0YgAfJDEkOTE4NzIkcnBjMnJKMGoycEdieWNiTTVtV2FWMAAfJDEkNTU2NzkkZDRRWVVxM2Q0SlFKV1pQOS4ydFdTLgAAATojNN5UNBX+oeknuaBKxyUDp4vnyLNmAy0*^keep_logged_in=true
+      - area_preference=Vmy_housing_addtl_section=false^subarea=3100240^random_marker=71^guid=2AQAAATgO6c4AAM4AMDdkODMwOGI0LTkxZGQtNGU0Ny04NDc5LTlmNjc2Y2RlYzA0MS0xM2E0YjhkYWJlM3vhoMtz0NC30aFU/RiXlnxKGWuw;
+        cls-last-visit=1349887307567; kuid=Visfb=false; na=Vug=ZGV3ZXRi^na=2AQAAATnRhkAAAMoAAAE6S42zNgAAAAABdPGbAQEABmRld2V0YgAfJDEkOTE4NzIkcnBjMnJKMGoycEdieWNiTTVtV2FWMAAfJDEkNDk1MDQkYzR1blMxd2pndGJoT3Y0ZklnQ0lvMQAAATpLja4zR3hdnrAxcHJOwdJtOMeNp+2t6Uw*^keep_logged_in=true
   response:
     status:
       code: 302
@@ -611,40 +611,40 @@ http_interactions:
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
         YXJlYV9wcmVmZXJlbmNlPVZteV9ob3VzaW5nX2FkZHRsX3NlY3Rpb249ZmFs
-        c2Vec3ViYXJlYT0zMTAwMjQwXnJhbmRvbV9tYXJrZXI9NjleZ3VpZD0yQVFB
-        QUFUZ082YzRBQU00QU1EUTFaRGhpTkRZNUxURXlOVEV0TkRCallpMDRNV1l3
-        TFRCaE1EZGlZemcwTURZME1pMHhNMkV5TXpNMFpHSmtNTVFNODBCcDNibzVB
-        bC9LY2laWEt4NGZGTUU1OyBEb21haW49Lmd1bXRyZWUuY28uemE7IEV4cGly
-        ZXM9V2VkLCAwMi1PY3QtMjAxMyAyMDo0MDowMCBHTVQ7IFBhdGg9Lw==
+        c2Vec3ViYXJlYT0zMTAwMjQwXnJhbmRvbV9tYXJrZXI9NzFeZ3VpZD0yQVFB
+        QUFUZ082YzRBQU00QU1EZGtPRE13T0dJMExUa3haR1F0TkdVME55MDRORGM1
+        TFRsbU5qYzJZMlJsWXpBME1TMHhNMkUwWWpoa1lXSmxNM3Zob010ejBOQzMw
+        YUZVL1JpWGxueEtHV3V3OyBEb21haW49Lmd1bXRyZWUuY28uemE7IEV4cGly
+        ZXM9VGh1LCAxMC1PY3QtMjAxMyAxNjo0MTo0OSBHTVQ7IFBhdGg9Lw==
       - !binary |-
-        Y2xzLWxhc3QtdmlzaXQ9MTM0OTIxMDQwMDMxNjsgRG9tYWluPWNhcGV0b3du
-        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9V2VkLCAwMi1P
-        Y3QtMjAxMyAyMDo0MDowMCBHTVQ7IFBhdGg9Lw==
+        Y2xzLWxhc3QtdmlzaXQ9MTM0OTg4NzMwOTAzOTsgRG9tYWluPWNhcGV0b3du
+        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9VGh1LCAxMC1P
+        Y3QtMjAxMyAxNjo0MTo0OSBHTVQ7IFBhdGg9Lw==
       - !binary |-
         a3VpZD1WaXNmYj1mYWxzZTsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBQYXRo
         PS8=
       - !binary |-
-        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNkl6VGw3
-        Z0FBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
-        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTlRVMk56a2taRFJSV1ZW
-        eE0yUTBTbEZLVjFwUU9TNHlkRmRUTGdBQUFUb2pOTjVVU1ZmSnV3OUx5cGc5
-        QWVDalN0TXhjLzU4SzBJKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
-        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U2F0LCAwMS1EZWMtMjAxMiAyMDo0
-        MDowMCBHTVQ7IFBhdGg9Lw==
+        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNlM0MjB5
+        d0FBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
+        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTkRrMU1EUWtZelIxYmxN
+        eGQycG5kR0pvVDNZMFprbG5RMGx2TVFBQUFUcExqYTR6ZTdxckVpTkliRE1i
+        N3E3eHVEcW16d1JOSDhvKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
+        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U3VuLCAwOS1EZWMtMjAxMiAxNjo0
+        MTo0OSBHTVQ7IFBhdGg9Lw==
       !binary "TG9jYXRpb24=":
       - !binary |-
         aHR0cDovL2NhcGV0b3duLXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemEvYy1W
-        aWV3QWQ/QWRJZD00MTg5ODA2MjQmTWVzc2FnZUlkPU1TRy5WSUVXX0FELkFE
+        aWV3QWQ/QWRJZD00MjExOTQ0MjEmTWVzc2FnZUlkPU1TRy5WSUVXX0FELkFE
         X0FDVElWQVRFRE1YbWVzc2FnZVVybE1aaHR0cCUzQSUyRiUyRmNhcGV0b3du
         LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemElMkZjLUFkRGV0YWlscyUzRkFk
-        SWQlM0Q0MTg5ODA2MjQlMjZHdWlkJTNEMTNhMjMzNGUtNDY5MC1hMjBiLTI3
-        MzYtNTAxZmZmZmVjMmRmJm1wbmFtZT1Mb2NDbGFzcy1QcmVBdXRoQWQmbXBu
-        YW1lPUxvY0NsYXNzLUZyZWVBZCZtcHVpZD0yNDQ0MTI0MyUzQjQxODk4MDYy
-        NCUzQjI0NDQxMjQzJTNCMzEwMDI0MCUzQjkxNzUlM0IlM0IlM0IlM0IlM0Ix
-        MzQ5MjEwNDAwMzE2JnNlY2V2PUFRQUFBVG9YREJvQUFNMEFBQUFCQUNJeE0y
-        RXlNek0wWlRZell5NWhNakJpTWpaakxqTTFPVEJsTG1abVptUTNNR0kxQUFB
-        QUFRQUFBQUFZJTJCU01RQUhiOWR1VkxLMENWcmlqcTVRSnJBTjBEeWN1VyZ3
-        bWlkPTQxODk4MDYyNA==
+        SWQlM0Q0MjExOTQ0MjElMjZHdWlkJTNEMTNhNGI4ZGItMzYxMC1hMjBiLTI2
+        NTItNTcyMWZmZmUzYmRmJm1wbmFtZT1Mb2NDbGFzcy1QcmVBdXRoQWQmbXBu
+        YW1lPUxvY0NsYXNzLUZyZWVBZCZtcHVpZD0yNDQ0MTI0MyUzQjQyMTE5NDQy
+        MSUzQjI0NDQxMjQzJTNCMzEwMDI0MCUzQjkxNzUlM0IlM0IlM0IlM0IlM0Ix
+        MzQ5ODg3MzA5MDM5JnNlY2V2PUFRQUFBVG83R0o0QUFNMEFBQUFCQUNJeE0y
+        RTBZamhrWWpSbFppNWhNakJpTWpaakxqTTFPVEJsTG1abVpqazBZVE0xQUFB
+        QUFRQUFBQUFaR3VxMUFRQUFBQ3NBQUFBRGZoSFdBTTg3YmwlMkJVVjl0SmFt
+        ME1UbEZvJTJCemNFMnklMkZtJndtaWQ9NDIxMTk0NDIx
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9odG1sO2NoYXJzZXQ9dXRmLTg=
@@ -653,7 +653,7 @@ http_interactions:
         MA==
       !binary "RGF0ZQ==":
       - !binary |-
-        VHVlLCAwMiBPY3QgMjAxMiAyMDo0MDowMCBHTVQ=
+        V2VkLCAxMCBPY3QgMjAxMiAxNjo0MTo0OCBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         Y29uZmlkZW50aWFs
@@ -673,10 +673,10 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Tue, 02 Oct 2012 20:40:00 GMT
+  recorded_at: Wed, 10 Oct 2012 16:41:49 GMT
 - request:
     method: get
-    uri: http://capetown-westerncape.gumtree.co.za/c-ViewAd?AdId=418980624&MessageId=MSG.VIEW_AD.AD_ACTIVATEDMXmessageUrlMZhttp://capetown-westerncape.gumtree.co.za/c-AdDetails?AdId=418980624%26Guid=13a2334e-4690-a20b-2736-501ffffec2df&mpname=LocClass-FreeAd&mpuid=24441243;418980624;24441243;3100240;9175;;;;;1349210400316&secev=AQAAAToXDBoAAM0AAAABACIxM2EyMzM0ZTYzYy5hMjBiMjZjLjM1OTBlLmZmZmQ3MGI1AAAAAQAAAAAY+SMQAHb9duVLK0CVrijq5QJrAN0DycuW&wmid=418980624
+    uri: http://capetown-westerncape.gumtree.co.za/c-ViewAd?AdId=421194421&MessageId=MSG.VIEW_AD.AD_ACTIVATEDMXmessageUrlMZhttp://capetown-westerncape.gumtree.co.za/c-AdDetails?AdId=421194421%26Guid=13a4b8db-3610-a20b-2652-5721fffe3bdf&mpname=LocClass-FreeAd&mpuid=24441243;421194421;24441243;3100240;9175;;;;;1349887309039&secev=AQAAATo7GJ4AAM0AAAABACIxM2E0YjhkYjRlZi5hMjBiMjZjLjM1OTBlLmZmZjk0YTM1AAAAAQAAAAAZGuq1AQAAACsAAAADfhHWAM87bl+UV9tJam0MTlFo+zcE2y/m&wmid=421194421
     body:
       encoding: US-ASCII
       string: ''
@@ -685,8 +685,8 @@ http_interactions:
       - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.1 (KHTML, like
         Gecko) Chrome/21.0.1180.89 Safari/537.1
       Cookie:
-      - area_preference=Vmy_housing_addtl_section=false^subarea=3100240^random_marker=69^guid=2AQAAATgO6c4AAM4AMDQ1ZDhiNDY5LTEyNTEtNDBjYi04MWYwLTBhMDdiYzg0MDY0Mi0xM2EyMzM0ZGJkMMQM80Bp3bo5Al/KciZXKx4fFME5;
-        cls-last-visit=1349210398604; kuid=Visfb=false; na=Vug=ZGV3ZXRi^na=2AQAAATnRhkAAAMoAAAE6IzTl7gAAAAABdPGbAQEABmRld2V0YgAfJDEkOTE4NzIkcnBjMnJKMGoycEdieWNiTTVtV2FWMAAfJDEkNTU2NzkkZDRRWVVxM2Q0SlFKV1pQOS4ydFdTLgAAATojNN5USVfJuw9Lypg9AeCjStMxc/58K0I*^keep_logged_in=true
+      - area_preference=Vmy_housing_addtl_section=false^subarea=3100240^random_marker=71^guid=2AQAAATgO6c4AAM4AMDdkODMwOGI0LTkxZGQtNGU0Ny04NDc5LTlmNjc2Y2RlYzA0MS0xM2E0YjhkYWJlM3vhoMtz0NC30aFU/RiXlnxKGWuw;
+        cls-last-visit=1349887307567; kuid=Visfb=false; na=Vug=ZGV3ZXRi^na=2AQAAATnRhkAAAMoAAAE6S420ywAAAAABdPGbAQEABmRld2V0YgAfJDEkOTE4NzIkcnBjMnJKMGoycEdieWNiTTVtV2FWMAAfJDEkNDk1MDQkYzR1blMxd2pndGJoT3Y0ZklnQ0lvMQAAATpLja4ze7qrEiNIbDMb7q7xuDqmzwRNH8o*^keep_logged_in=true
   response:
     status:
       code: 200
@@ -696,31 +696,31 @@ http_interactions:
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
         YXJlYV9wcmVmZXJlbmNlPVZteV9ob3VzaW5nX2FkZHRsX3NlY3Rpb249ZmFs
-        c2Vec3ViYXJlYT0zMTAwMjQwXmFidGVzdD03ODk4MjQ2NDkwMDU2Mjk0XnJh
-        bmRvbV9tYXJrZXI9NjleZ3VpZD0yQVFBQUFUZ082YzRBQU00QU1EUTFaRGhp
-        TkRZNUxURXlOVEV0TkRCallpMDRNV1l3TFRCaE1EZGlZemcwTURZME1pMHhN
-        MkV5TXpNMFpHSmtNTVFNODBCcDNibzVBbC9LY2laWEt4NGZGTUU1OyBEb21h
-        aW49Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9V2VkLCAwMi1PY3QtMjAxMyAy
-        MDo0MDowMCBHTVQ7IFBhdGg9Lw==
+        c2Vec3ViYXJlYT0zMTAwMjQwXmFidGVzdD00OTYyMzEzMzA5MzMxMjIxXnJh
+        bmRvbV9tYXJrZXI9NzFeZ3VpZD0yQVFBQUFUZ082YzRBQU00QU1EZGtPRE13
+        T0dJMExUa3haR1F0TkdVME55MDRORGM1TFRsbU5qYzJZMlJsWXpBME1TMHhN
+        MkUwWWpoa1lXSmxNM3Zob010ejBOQzMwYUZVL1JpWGxueEtHV3V3OyBEb21h
+        aW49Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9VGh1LCAxMC1PY3QtMjAxMyAx
+        Njo0MTo0OSBHTVQ7IFBhdGg9Lw==
       - !binary |-
-        Y2xzLWxhc3QtdmlzaXQ9MTM0OTIxMDQwMDc1MTsgRG9tYWluPWNhcGV0b3du
-        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9V2VkLCAwMi1P
-        Y3QtMjAxMyAyMDo0MDowMCBHTVQ7IFBhdGg9Lw==
+        Y2xzLWxhc3QtdmlzaXQ9MTM0OTg4NzMwOTgzMjsgRG9tYWluPWNhcGV0b3du
+        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9VGh1LCAxMC1P
+        Y3QtMjAxMyAxNjo0MTo0OSBHTVQ7IFBhdGg9Lw==
       - !binary |-
         aG91cmx5X3ByZWZlcmVuY2U9VnZzdF9oPTE7IERvbWFpbj0uZ3VtdHJlZS5j
-        by56YTsgRXhwaXJlcz1UdWUsIDAyLU9jdC0yMDEyIDIxOjQwOjAwIEdNVDsg
+        by56YTsgRXhwaXJlcz1XZWQsIDEwLU9jdC0yMDEyIDE3OjQxOjQ5IEdNVDsg
         UGF0aD0v
       - !binary |-
         a3VpZD1WaXNmYj1mYWxzZTsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBQYXRo
         PS8=
       - !binary |-
-        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNkl6VG54
+        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNlM0MjN0
         UUFBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
-        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTlRVMk56a2taRFJSV1ZW
-        eE0yUTBTbEZLVjFwUU9TNHlkRmRUTGdBQUFUb2pOTjVVZFlhSTZsNlhTTVlh
-        U0JsVEttdnBHaWZrOEJrKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
-        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U2F0LCAwMS1EZWMtMjAxMiAyMDo0
-        MDowMCBHTVQ7IFBhdGg9Lw==
+        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTkRrMU1EUWtZelIxYmxN
+        eGQycG5kR0pvVDNZMFprbG5RMGx2TVFBQUFUcExqYTR6U0xtL0pGOWJjV29y
+        MkltTTRVL0NCeUpSVlVRKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
+        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U3VuLCAwOS1EZWMtMjAxMiAxNjo0
+        MTo0OSBHTVQ7IFBhdGg9Lw==
       !binary "UDNw":
       - !binary |-
         Q1A9IkNBTyBQU0EgT1VSIg==
@@ -729,10 +729,10 @@ http_interactions:
         dGV4dC9odG1sO2NoYXJzZXQ9dXRmLTg=
       !binary "Q29udGVudC1MZW5ndGg=":
       - !binary |-
-        NDcwMjQ=
+        NDg0MTY=
       !binary "RGF0ZQ==":
       - !binary |-
-        VHVlLCAwMiBPY3QgMjAxMiAyMDozOTo1OSBHTVQ=
+        V2VkLCAxMCBPY3QgMjAxMiAxNjo0MTo0OSBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         Y29uZmlkZW50aWFs
@@ -754,13 +754,13 @@ http_interactions:
         \"http://www.w3.org/TR/html4/loose.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\"
         \ xmlns:fb=\"http://www.facebook.com/2008/fbml\"> <!-- MJP ViewAd -->\r\n\r\n<!--
         Start of HtmlPageHtmlHead -->\r\n<head>\r\n<title>Red two seater sofa and
-        different armchair, Classifieds Ad ID: 418980624</title>\r\n<meta http-equiv=\"X-UA-Compatible\"
+        different armchair, Classifieds Ad ID: 421194421</title>\r\n<meta http-equiv=\"X-UA-Compatible\"
         content=\"IE=EmulateIE7\"/>\r\n<meta http-equiv=\"content-type\" content=\"text/html;
         charset=UTF-8\"/>\r\n<meta name=\"description\" content=\"Red two seater sofa
         and different armchair,furniture, Gumtree Classifieds\"/>\r\n<meta name=\"uniq_GUMTREE_SOUTHAFRICA_page_token_name\"
         content=\"ViewAd\"/>\r\n<meta property=\"og:image\" content=\"http://pic.classistatic.com/image/pics/classifieds/en-ZA/logo.gif\"/>\r\n<meta
         property=\"og:title\" content=\"Red two seater sofa and different armchair\"/>\r\n<meta
-        property=\"og:type\" content=\"article\"/>\r\n<meta property=\"og:url\" content=\"http://capetown-westerncape.gumtree.co.za/c-Home-Garden-furniture-Red-two-seater-sofa-and-different-armchair-W0QQAdIdZ418980624\"/>\r\n<meta
+        property=\"og:type\" content=\"article\"/>\r\n<meta property=\"og:url\" content=\"http://capetown-westerncape.gumtree.co.za/c-Home-Garden-furniture-Red-two-seater-sofa-and-different-armchair-W0QQAdIdZ421194421\"/>\r\n<meta
         property=\"og:description\" content=\"Red two seater sofa and different armchair.
         Red two seater sofa and different armchair.\"/>\r\n<meta property=\"og:locality\"
         content=\"Cape Winelands\"/>\r\n<meta property=\"og:site_name\" content=\"Gumtree
@@ -771,7 +771,7 @@ http_interactions:
         content=\"24441243\">\r\n<meta name=\"WT.si_n\" content=\"postad\">\r\n<meta
         name=\"WT.cg_s\" content=\"furniture\">\r\n<meta name=\"DCSext.loc2\" content=\"capetown-westerncape\">\r\n<meta
         name=\"DCSext.loc1\" content=\"gumtree.co.za\">\r\n<meta name=\"WT.si_x\"
-        content=\"4\">\r\n<meta name=\"DCSext.ad\" content=\"418980624\">\r\n<meta
+        content=\"4\">\r\n<meta name=\"DCSext.ad\" content=\"421194421\">\r\n<meta
         name=\"DCSext.locale\" content=\"en_ZA\">\r\n<meta name=\"DCSext.catroot\"
         content=\"default\">\r\n<link rel=\"SHORTCUT ICON\" href=\"http://pic.classistatic.com/image/pics/classifieds/gumtreeFavicon.ico\">\r\n<link
         href=\"http://include.classistatic.com/include/e793_5/c3css/pages/ViewAdShared-min.css\"
@@ -792,7 +792,7 @@ http_interactions:
         <img height=\"1\" width=\"208\" src=\"http://pic.classistatic.com/image/pics/classifieds/spacer.gif\">\r\n</td>\r\n<td
         class=\"bg_header_right2\">\r\n<div style=\"height:25px\">\r\n<table class=\"tbleColpse
         signinCtr\" >\r\n<tr>\r\n<td class=\"signin-left\"></td>\r\n<td>\r\n<div class=\"signin\">\r\n<div
-        id=\"withoutGreetings\">\r\nHi dewetb\r\n&nbsp;|&nbsp;\r\n<a href=\"http://capetown-westerncape.gumtree.co.za/c-SignOut?rup=ViewAd&ruq=AdId%3D418980624\"
+        id=\"withoutGreetings\">\r\nHi dewetb\r\n&nbsp;|&nbsp;\r\n<a href=\"http://capetown-westerncape.gumtree.co.za/c-SignOut?rup=ViewAd&ruq=AdId%3D421194421\"
         id=\"log_out\" >Sign Out</a>\r\n</div>\r\n<input type=\"hidden\" id=\"signedIn\">\r\n</div>\r\n</td>\r\n</tr>\r\n</table>\r\n</div>\r\n<table
         width=\"100%\" height=\"26px\" class=\"tbleColpse\" >\r\n<tr>\r\n<td class=\"navTabs-new\">\r\n<div
         class=\"mainTabs\">\r\n<a href=\"http://capetown-westerncape.gumtree.co.za\"
@@ -863,7 +863,7 @@ http_interactions:
         width=\\\"13\\\" height=\\\"13\\\" border=\\\"0\\\" alt=\\\"Close\\\" title=\\\"Close\\\"></a></div>\");\r\n</script>\r\n<div
         class=\" pagestatus_sucess\">\r\nCongratulations, your ad is now posted on
         Gumtree. It may take a few minutes for your ad to be visible everywhere on
-        the site. <a href=\"http://capetown-westerncape.gumtree.co.za/c-AdDetails?AdId=418980624&Guid=13a2334e-4690-a20b-2736-501ffffec2df\">Edit
+        the site. <a href=\"http://capetown-westerncape.gumtree.co.za/c-AdDetails?AdId=421194421&Guid=13a4b8db-3610-a20b-2652-5721fffe3bdf\">Edit
         Ad</a>\r\n</div>\r\n</div>\r\n</div>\r\n<!-- google_ad_section_end(weight=ignore)
         -->\r\n</div>\r\n<div id=\"middle\" class=\"page_viewad\">\r\n<div id=\"pagepromo\">\r\n<div
         id=\"pagepromo_inner\"><!-- Advertiser 'Kijiji', Include user in segment 'post
@@ -875,15 +875,15 @@ http_interactions:
         height=\"35\">&nbsp;</td></tr>\n<tr><td valign=\"top\" align=\"left\">\n</td>\n</tr>\n<tr><td
         valign=\"top\" align=\"left\">\n<style> html .fb_share_link { margin-left:
         5px; padding:0 0 0 20px; height:16px; background:url(http://b.static.ak.fbcdn.net/images/share/facebook_share_icon.gif?8:26981)
-        no-repeat top left; }</style>\n<a href=\"http://altfarm.mediaplex.com/ad/ck/10828-103722-23165-0?mpt=1&mpre=http%3A//www.facebook.com/share.php%3Fu%3Dhttp%3A//capetown-westerncape.gumtree.co.za/c-ViewAd%3FAdId%3D418980624\"
+        no-repeat top left; }</style>\n<a href=\"http://altfarm.mediaplex.com/ad/ck/10828-103722-23165-0?mpt=1&mpre=http%3A//www.facebook.com/share.php%3Fu%3Dhttp%3A//capetown-westerncape.gumtree.co.za/c-ViewAd%3FAdId%3D421194421\"
         onclick=\"return fbs_click()\" target=\"_blank\" class=\"fb_share_link\"><font
         size=\"2\">Share this Ad on Facebook</font></a>\n</td>\n</tr>\n<tr><td valign=\"top\"
         align=\"left\">\n<img src=\"http://pic.classistatic.com/image/site/au/twitter_16x16_FFFAEE.GIF\"
         hspace=\"5\" /><a href=\"http://altfarm.mediaplex.com/ad/ck/10828-103723-23165-0?mpt=1&mpre=http%3A//twitter.com/home%3Fstatus%3DLook%2520what%2527s%2520on%2520Gumtree%2520Cape
-        Town / Western Cape%2520http%3A//capetown-westerncape.gumtree.co.za/c-ViewAd%3FAdId%3D418980624%2520%2523Gumtree\"
+        Town / Western Cape%2520http%3A//capetown-westerncape.gumtree.co.za/c-ViewAd%3FAdId%3D421194421%2520%2523Gumtree\"
         target=\"_blank\"><font size=\"2\">Share this Ad on Twitter</font></a>\n<tr><td
         valign=\"top\" align=\"left\">\n<img src=\"http://pic.classistatic.com/image/site/au/iconMailBlue_16x16.GIF\"
-        hspace=\"5\" /><a href=\"/c-SendToFriendView?AdId=418980624\"><font size=\"2\">Send
+        hspace=\"5\" /><a href=\"/c-SendToFriendView?AdId=421194421\"><font size=\"2\">Send
         to friends and family</font></a>\n</td>\n</tr>\n</table>\n</td>\n<td>\n<a
         href=\"http://info.gumtree.co.za/help/knowledgebase.php?article=6\" target=\"_blank\"><img
         src=\"http://info.gumtree.com.au/Images/msg_delay.gif\" border=0 /></a>\n</td>\n<td>\n<a
@@ -899,7 +899,7 @@ http_interactions:
         itemprop=\"url\">\r\n<span itemprop=\"title\">Home &amp; Garden</span>\r\n</a>\r\n>\r\n<a
         href=\"http://capetown-westerncape.gumtree.co.za/f-Home-Garden-furniture-W0QQCatIdZ9181\"
         itemprop=\"url\">\r\n<span itemprop=\"title\">furniture</span>\r\n</a>\r\n&gt;
-        Ad ID 418980624\r\n</div>\r\n</td>\r\n<td align=\"right\" valign=\"top\">\r\n</td>\r\n</tr>\r\n</table>\r\n<table
+        Ad ID 421194421\r\n</div>\r\n</td>\r\n<td align=\"right\" valign=\"top\">\r\n</td>\r\n</tr>\r\n</table>\r\n<table
         class=\"viewadtitle\">\r\n<tr>\r\n<td class=\"viewadtitleL viewadtitleLComm\">\r\n<table
         class=\"tbleColpse\">\r\n<tr>\r\n<td >\r\n<div >\r\n<h1 class=\"\" id=\"preview-local-title\">Wanted:
         <!-- google_ad_section_start -->Red two seater sofa and different armchair<!--
@@ -907,31 +907,45 @@ http_interactions:
         class=\"viewadaction\">\r\n<ul id=\"viewAd-actions\" class=\"viewAd-actions\"
         >\r\n<li><span nowrap=\"true\" class=\"jsonly wl_star_off\" title=\"Watch
         Ad\">&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"watchText\">Watch</span></span></li>\r\n<li
-        class=\"pipe\">|</li>\r\n<li>\r\n<span class=\"s2f\">\r\n<a href=\"http://capetown-westerncape.gumtree.co.za/c-SendToFriend?AdId=418980624\"
+        class=\"pipe\">|</li>\r\n<li>\r\n<span class=\"s2f\">\r\n<a href=\"http://capetown-westerncape.gumtree.co.za/c-SendToFriend?AdId=421194421\"
         class=\"really\"></a>\r\n</span>\r\n</li>\r\n<li class=\"pipe\">|</li>\r\n<li>\r\n<!--
         rt:5001 - Removing icon labels if Print has empty content in ViewAd.xml-->\r\n<a
-        class=\"pricn\" href=\"http://capetown-westerncape.gumtree.co.za/c-PrintAd?AdId=418980624\"
+        class=\"pricn\" href=\"http://capetown-westerncape.gumtree.co.za/c-PrintAd?AdId=421194421\"
         target=\"_blank\"><span class=\"print\">&nbsp;</span></a>\r\n</li>\r\n<li
         class=\"pipe\">|</li>\r\n<li> <span class=\"jsonly\" id=\"reportAd_name\">Report
         Ad<span>&nbsp;&nbsp;&nbsp;</span></span>\r\n<div class=\"modal\" id=\"modalFrameLayer\"></div>\r\n</li>\r\n</ul>\r\n</td>\r\n</tr>\r\n</table>\r\n</div>\r\n<noscript>\r\n<style
         type=\"text/css\">\r\n.jsonly {\r\ndisplay:none;\r\n}\r\n</style>\r\n</noscript>\r\n<table
-        class=\"adcontent tblClpsePad\">\r\n<tr>\r\n<td>\r\n<table width=\"100%\"
-        class=\"tblClpsePad\">\r\n<tr>\r\n<td class=\"adImg\">\r\n</td>\r\n<td valign=\"top\"
-        width=\"99%\">\r\n<div style=\"font-weight:normal\">\r\n<table cellpadding=\"0\"
-        cellspacing=\"0\" border=\"0\" class=\"viewad_frame_tbl\" style=\"min-width:260px;\">\r\n<tr>\r\n<td
-        class=\"viewad_frame_fill\">\r\n<table width=\"100%\" height=\"3\" cellpadding=\"0\"
-        cellspacing=\"0\" border=\"0\">\r\n<tr>\r\n<td valign=bottom class=\"viewad_frame_fill\">\r\n<div
-        class=\"viewad_frame_tl viewad_frame_brand1\" style=\"font-size:3px;height:3px\">
-        </div>\r\n</td>\r\n<td width=\"99%\" class=\"viewad_frame_tm viewad_frame_brand1\"
-        style=\"font-size:3px\">\r\n<div class=\"viewad_frame_fill\"> </div>\r\n</td>\r\n<td
-        valign=bottom class=\"viewad_frame_fill\">\r\n<div class=\"viewad_frame_tr
-        viewad_frame_brand1\" style=\"font-size:3px;height:3px\"> </div>\r\n</td>\r\n</tr>\r\n</table>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td
-        class=\"viewad_frame_m viewad_frame_brand2\" style='padding:0px 2px 0px 2px'
-        style=\"margin:0px\"> <table id=\"attributeTable\" border=\"0\" cellpadding=\"3\"
-        cellspacing=\"0\" width=\"100%\">\r\n<col/><col width=\"99%\"/>\r\n<tr>\r\n<td
-        nowrap valign=top class=\"first_col first_row \" >Date Listed\r\n</td>\r\n<td
-        class=\"first_row\" > 02/10/2012\r\n</td>\r\n</tr>\r\n<tr>\r\n<td nowrap valign=top
-        class=\"first_col \" >Price\r\n</td>\r\n<td style='font-weight:bold'>\r\nFree\r\n</td>\r\n</tr>\r\n<tr>\r\n<td
+        class=\"adcontent tblClpsePad\">\r\n<tr>\r\n<td>\r\n<div class=\"upsell_messagebox\"
+        id=\"messagebox\" width=\"75%\" style=\"margin-bottom:10px\">\r\n<script>\r\ndocument.write(\"<div
+        class=\\\"closeBtn\\\"><a href=\\\"javascript:closeMessage('messagebox');\\\"><img
+        src=\\\"http://pic.classistatic.com/image/pics/classifieds/layer_closebutton.gif\\\"
+        width=\\\"13\\\" height=\\\"13\\\" border=\\\"0\\\" alt=\\\"Close\\\" title=\\\"Close\\\"></a></div>\");\r\n</script>\r\n<a
+        href=\"http://capetown-westerncape.gumtree.co.za/c-PromoteMyAds?AdId=421194421&action_calculate=Calculate&bumpupFeature=421194421&upsl=40\"
+        style=\"background:transparent;cursor:pointer;text-decoration:none;\">\r\n<div
+        class=\"upsell_BUMP_UP\" style=\"cursor:pointer;display:block;\" onclick=\"window.location='http://capetown-westerncape.gumtree.co.za/c-PromoteMyAds?AdId=421194421&action_calculate=Calculate&bumpupFeature=421194421&upsl=40;'\">\r\n<table
+        cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"98%\">\r\n<tr>\r\n<td
+        valign=\"top\">\r\n<div class=\"upsell_title\"><h1>Get more replies to your
+        ad!</h1></div>\r\n<div class=\"upsell_description\" style=\"font-size:14px;\">Ads
+        on the first page get noticed more often.</div>\r\n</td>\r\n<td valign=\"middle\"
+        align=\"center\" nowrap=\"true\">\r\n<div class=\"upsell_link\">\r\n<a href=\"http://capetown-westerncape.gumtree.co.za/c-PromoteMyAds?AdId=421194421&action_calculate=Calculate&bumpupFeature=421194421&upsl=40\">\r\nBump
+        up your ad right now.<br/>\r\n</a>\r\n</div>\r\n</td>\r\n</tr>\r\n</table>\r\n</div>\r\n</a>\r\n</div>\r\n<table
+        width=\"100%\" class=\"tblClpsePad\">\r\n<tr>\r\n<td class=\"adImg\">\r\n</td>\r\n<td
+        valign=\"top\" width=\"99%\">\r\n<div style=\"font-weight:normal\">\r\n<table
+        cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"viewad_frame_tbl\"
+        style=\"min-width:260px;\">\r\n<tr>\r\n<td class=\"viewad_frame_fill\">\r\n<table
+        width=\"100%\" height=\"3\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\r\n<tr>\r\n<td
+        valign=bottom class=\"viewad_frame_fill\">\r\n<div class=\"viewad_frame_tl
+        viewad_frame_brand1\" style=\"font-size:3px;height:3px\"> </div>\r\n</td>\r\n<td
+        width=\"99%\" class=\"viewad_frame_tm viewad_frame_brand1\" style=\"font-size:3px\">\r\n<div
+        class=\"viewad_frame_fill\"> </div>\r\n</td>\r\n<td valign=bottom class=\"viewad_frame_fill\">\r\n<div
+        class=\"viewad_frame_tr viewad_frame_brand1\" style=\"font-size:3px;height:3px\">
+        </div>\r\n</td>\r\n</tr>\r\n</table>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td class=\"viewad_frame_m
+        viewad_frame_brand2\" style='padding:0px 2px 0px 2px' style=\"margin:0px\">
+        <table id=\"attributeTable\" border=\"0\" cellpadding=\"3\" cellspacing=\"0\"
+        width=\"100%\">\r\n<col/><col width=\"99%\"/>\r\n<tr>\r\n<td nowrap valign=top
+        class=\"first_col first_row \" >Date Listed\r\n</td>\r\n<td class=\"first_row\"
+        > 10/10/2012\r\n</td>\r\n</tr>\r\n<tr>\r\n<td nowrap valign=top class=\"first_col
+        \" >Price\r\n</td>\r\n<td style='font-weight:bold'>\r\nR 15,000\r\n</td>\r\n</tr>\r\n<tr>\r\n<td
         nowrap valign=top class=\"first_col \" >Location\r\n</td>\r\n<td > Cape Town
         / Western Cape\r\n<a href=\"http://capetown-westerncape.gumtree.co.za/f--Cape-Winelands-W0QQLocationZ3100240\">Cape
         Winelands</a> </td>\r\n</tr>\r\n<tr>\r\n<td nowrap valign=top class=\"first_col
@@ -962,7 +976,7 @@ http_interactions:
         Poster</div>\r\n<form id=\"ReplyToAdForm\" action=\"/c-ViewAd\" method=\"post\"
         name=\"viewadfrm\">\r\n<noscript>\r\n<style type=\"text/css\">\r\n#ReplyToAdForm
         .first-input div {\r\npadding-left:0px;\r\nbackrgound : transparent;\r\n}\r\n</style>\r\n</noscript>\r\n<input
-        type=\"hidden\" name=\"AdId\" value=\"418980624\"/>\r\n<input type=\"hidden\"
+        type=\"hidden\" name=\"AdId\" value=\"421194421\"/>\r\n<input type=\"hidden\"
         name=\"Submit\" value=\"true\"/>\r\n<span id=\"MTNew\" >\r\n</span>\r\n<span
         id=\"CDOld\" >\r\n<!-- begin form field -->\r\n<div id=\"SenderEmailAddress_field\"
         class=\"first-field\" >\r\n<div class=\"first-input\">\r\n<a name=\"FromEmailAddress\"></a>\r\n<div
@@ -987,9 +1001,9 @@ http_interactions:
         read the code?</span><br/>\r\n<a href='#' id=\"bbsound\" style=\"font-size:10px\">Listen
         to the code</a>\r\n<span id='BbAudioSpanId'></span>\r\n</div>\r\n</td>\r\n<td
         style=\"padding-left:15px\">\r\n<img border=\"0\" class=\"imageAlign\" alt=\"Enable
-        images to see number\" src=\"http://capetown-westerncape.gumtree.co.za/BbImage?tokenstring=AQAAAToewCkXAAcCIADMM%2Bv1OOsnCct0R4IvcMhAz4kj%2FItyQ7Xm\"
+        images to see number\" src=\"http://capetown-westerncape.gumtree.co.za/BbImage?tokenstring=AQAAATpH8whfAAc1HAC7A0QeOXIsaIK5SZn6bABGzUWIstFCyjKK\"
         width=\"75\" height=\"50\">\r\n<br>Verification code\r\n</td>\r\n</tr>\r\n</table>\r\n<input
-        type=\"hidden\" name=\"BBST\" value=\"AQAAAToewCkXAAcCIADMM%2Bv1OOsnCct0R4IvcMhAz4kj%2FItyQ7Xm\"/>\r\n</div>\r\n<span
+        type=\"hidden\" name=\"BBST\" value=\"AQAAATpH8whfAAc1HAC7A0QeOXIsaIK5SZn6bABGzUWIstFCyjKK\"/>\r\n</div>\r\n<span
         id=\"CDNew\">\r\n</span>\r\n<div class=\"alternate-checkbox\">\r\n<input type=\"checkbox\"
         onClick=\"\" name=\"CopyMe\" value=\"checked\" checked/> Send me a copy of
         email\r\n</div>\r\n<input type=\"submit\" id=\"send\" value='Send Email' class=\"newButton\"
@@ -1003,7 +1017,7 @@ http_interactions:
         class=\"item\">\r\n<a href=\"javascript:\" id=\"mng_promote\">Promote</a>\r\n</li>\r\n<li
         class=\"item\">\r\n<a href=\"javascript:\" id=\"mng_delete\">Delete</a>\r\n</li>\r\n</ul>\r\n</div>\r\n<form
         id=\"ManageYourAdForm\" action=\"/c-ViewAd\" method=\"post\" name=\"manageyouradfrm\">\r\n<input
-        type=\"hidden\" name=\"AdId\" value=\"418980624\"/>\r\n<input type=\"hidden\"
+        type=\"hidden\" name=\"AdId\" value=\"421194421\"/>\r\n<input type=\"hidden\"
         name=\"SurveyResponse\" value=\"\"/>\r\n<input type=\"hidden\" name=\"Action\"/>\r\n</form>\r\n<div
         id=\"RemoveAd\" class=\"modal\" style=\"width:500px\">\r\n<table cellpadding=\"0\"
         cellspacing=\"0\" width=\"100%\">\r\n<tr>\r\n<td class=\"modalHeading\">\r\n<div
@@ -1074,13 +1088,13 @@ http_interactions:
         by un-checking the check box.\r\n</div>\r\n</div>\r\n</td>\r\n</tr>\r\n</table>\r\n</div>\r\n<script>\r\nvar
         kj_ads_queryParam = {\"adsenseQuery\":\"Red two seater sofa and different
         armchair\",\"afsChannels\":\"r_Capetown,Total,c_buyandsell,l_vip\",\"locale\":\"en-ZA\",\"adsenseClientAFS\":\"gumtree-za-vip\",\"type\":\"google\",\"afcChannels\":\"r_Capetown,Total,c_buyandsell\",\"pageNum\":\"1\",\"totalAds\":3,\"isGoogleTest\":false,\"adSafe\":false,\"adsenseClientAFC\":\"\",\"invocationType\":\"afs\",\"afcClientId\":\"ca-gumtree-za_js\"};\r\nvar
-        kj_ads_dispParam = {\"layOut\":\"\",\"dispType\":\"vip\",\"trackType\":\"mplx\",\"mplxUrl\":\"9858-56165-3840-27?LocClass-AdSenseClick=1&amp;mpuid=;;;;;;;r_Capetown,c_buyandsell;;1349210400743\"};\r\nkj_ads_dispParam.imgPlaceHolderIconUrl
+        kj_ads_dispParam = {\"layOut\":\"\",\"dispType\":\"vip\",\"trackType\":\"mplx\",\"mplxUrl\":\"9858-56165-3840-27?LocClass-AdSenseClick=1&amp;mpuid=;;;;;;;r_Capetown,c_buyandsell;;1349887309823\"};\r\nkj_ads_dispParam.imgPlaceHolderIconUrl
         = 'http://pic.classistatic.com/image/pics/classifieds/en-ZA/image_placeholder_gt1.gif';\r\nkj_ads_dispParam.adSenseTitle
         = 'Sponsored Links';\r\n</script>\r\n<script>\r\nKj_ad.init(kj_ads_queryParam,kj_ads_dispParam);\r\n</script>\r\n<style>\r\n#persistInput.storeMachId
         {behavior:url(#default#userData);}\r\n</style>\r\n<form id=\"persistForm\">\r\n<input
         type=\"hidden\" class=\"storeMachId\" id=\"persistInput\"/>\r\n</form>\r\n<!--
-        mediaplex tracker -->\r\n<img src=\"http://altfarm.mediaplex.com/ad/bk/9858-56165-3840-32?LocClass-PreAuthAd=1&amp;mpuid=24441243;418980624;24441243;3100240;9175;;;;;1349210400316\"
-        alt=\"\" border=\"0\" height=\"1\" width=\"1\"/>\r\n<img src=\"http://altfarm.mediaplex.com/ad/bk/9858-56165-3840-2?LocClass-FreeAd=1&amp;mpuid=24441243;418980624;24441243;3100240;9175;;;;;1349210400316\"
+        mediaplex tracker -->\r\n<img src=\"http://altfarm.mediaplex.com/ad/bk/9858-56165-3840-32?LocClass-PreAuthAd=1&amp;mpuid=24441243;421194421;24441243;3100240;9175;;;;;1349887309039\"
+        alt=\"\" border=\"0\" height=\"1\" width=\"1\"/>\r\n<img src=\"http://altfarm.mediaplex.com/ad/bk/9858-56165-3840-2?LocClass-FreeAd=1&amp;mpuid=24441243;421194421;24441243;3100240;9175;;;;;1349887309039\"
         alt=\"\" border=\"0\" height=\"1\" width=\"1\"/>\r\n<script type=\"text/javascript\">\r\nvar
         gDomain=\"statse.webtrendslive.com\";\r\nvar gCookieDomain=\".gumtree.co.za\";\r\nvar
         gDcsId=\"dcse2p3qc00000gs000fmc2q7_4q1f\";\r\nif ((document.cookie.indexOf(\"WT_FPC=\")==-1)&&(document.cookie.indexOf(\"WTLOPTOUT=\")==-1))
@@ -1101,10 +1115,10 @@ http_interactions:
         Kj.initMachineId({isProduction:true,cookiePath:'http://include.classistatic.com/include/e793_5/c3js/classifieds/rel1/FLASH/'});\r\n</script>\r\n<!--
         CC JS Includes -->\r\n<script type=\"text/javascript\" charset=\"UTF-8\">\r\n//start-CC
         JS\r\nfunction fbs_click(){u='http://capetown-westerncape.gumtree.co.za/c-ViewAd?AdId='+thisad;t=document.title;window.open('http://altfarm.mediaplex.com/ad/ck/10828-103722-23165-0?mpt=1&mpre=http%3A//www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return
-        false;}\n$().ready(function(){$(\".s2f\").html(\"<a href='http://www.facebook.com/share.php?src=bm&u=http%3A%2F%2Fcapetown-westerncape.gumtree.co.za%2Fc-ViewAd%3FAdId%3D418980624%26utm_source%3DFacebook%26utm_medium%3DSocial%252BMedia%26utm_campaign%3DPost%252BTo%252BFacebook&t=Red%20two%20seater%20sofa%20and%20different%20armchair%20-%20Kijiji%20Cape%20Town%20%2F%20Western%20Cape&v=3'
+        false;}\n$().ready(function(){$(\".s2f\").html(\"<a href='http://www.facebook.com/share.php?src=bm&u=http%3A%2F%2Fcapetown-westerncape.gumtree.co.za%2Fc-ViewAd%3FAdId%3D421194421%26utm_source%3DFacebook%26utm_medium%3DSocial%252BMedia%26utm_campaign%3DPost%252BTo%252BFacebook&t=Red%20two%20seater%20sofa%20and%20different%20armchair%20-%20Kijiji%20Cape%20Town%20%2F%20Western%20Cape&v=3'
         target='_blank'>&nbsp;</a>\");$(\".s2f\").kjmenu_makeMenu({data:\"\\0030\\003Post
         to Facebook\\0030\\004\"+\"\\0031\\003Post to Twitter\\0031\\004\"+\"\\0032\\003Post
-        to Google+\\0032\\004\"+\"\\0033\\003Email a friend\\0033\",OnSelect:function(mitem){switch(mitem.value){case'0':window.open('http://www.facebook.com/share.php?src=bm&u=http%3A%2F%2Fcapetown-westerncape.gumtree.co.za%2Fc-ViewAd%3FAdId%3D418980624%26utm_source%3DFacebook%26utm_medium%3DSocial%252BMedia%26utm_campaign%3DPost%252BTo%252BFacebook&t=Red%20two%20seater%20sofa%20and%20different%20armchair%20-%20Kijiji%20Cape%20Town%20%2F%20Western%20Cape&v=3');break;case'1':window.open('http://twitter.com/?status=http%3A%2F%2Fcapetown-westerncape.gumtree.co.za%2Fc-ViewAd%3FAdId%3D418980624');break;case'2':window.open('https://plusone.google.com/_/+1/confirm?url=http%3A%2F%2Fcapetown-westerncape.gumtree.co.za%2Fc-ViewAd%3FAdId%3D418980624');break;case'3':location.href='/c-SendToFriend?AdId=418980624';break;}}});});var
+        to Google+\\0032\\004\"+\"\\0033\\003Email a friend\\0033\",OnSelect:function(mitem){switch(mitem.value){case'0':window.open('http://www.facebook.com/share.php?src=bm&u=http%3A%2F%2Fcapetown-westerncape.gumtree.co.za%2Fc-ViewAd%3FAdId%3D421194421%26utm_source%3DFacebook%26utm_medium%3DSocial%252BMedia%26utm_campaign%3DPost%252BTo%252BFacebook&t=Red%20two%20seater%20sofa%20and%20different%20armchair%20-%20Kijiji%20Cape%20Town%20%2F%20Western%20Cape&v=3');break;case'1':window.open('http://twitter.com/?status=http%3A%2F%2Fcapetown-westerncape.gumtree.co.za%2Fc-ViewAd%3FAdId%3D421194421');break;case'2':window.open('https://plusone.google.com/_/+1/confirm?url=http%3A%2F%2Fcapetown-westerncape.gumtree.co.za%2Fc-ViewAd%3FAdId%3D421194421');break;case'3':location.href='/c-SendToFriend?AdId=421194421';break;}}});});var
         headElem=document.getElementsByTagName(\"head\")[0];var lnknode=document.createElement('link');lnknode.href='https://plus.google.com/102654773577173545259';lnknode.rel=\"publisher\";headElem.appendChild(lnknode);\r\n//end
         -CC JS\r\n//start-TAIL JS\r\n$(document).ready(function(){$('.mainTabs a[href$=\"c-SelectCategory\"]').bind('click',function(){Kj.Ga.trackEventsinGA({category:'Header_PostAdTab',action:'Header_PostAdTab_clicked',opt_label:undefined,track_on_area_level:true});});});var
         catdata=\"\\0030\\003All Ads\\0030\\004\\0031\\003Real Estate\\0032\\004\\0032\\003Cars
@@ -1166,7 +1180,7 @@ http_interactions:
         / Trade\\003http://capetown-westerncape.gumtree.co.za/f-Classifieds-W0QQLocationZ3100001QQPriceAlternativeZ5\";$(document).ready(function(){$(\"#AreaHomeTab,#SiteHomeTab\").kjmenu_makeMenu({data:browsedata,OnSelect:function(mitem){document.location.replace(mitem.value);}});$(\"#changeLocDiv\").click(function(){$.ajax({url:'http://capetown-westerncape.gumtree.co.za/c-GetLocation?CatId=0&PageName=',dataType:'script'});});});function
         trackHomeTabDropdown(type){var statisticUrl=\"\";if(type==\"tabname\"){statisticUrl='http://capetown-westerncape.gumtree.co.za/c-Statistic?StatType=';}else
         if(type==\"link\"){statisticUrl='http://capetown-westerncape.gumtree.co.za/c-Statistic?StatType=HomeTabDropdownCount';}\nstatisticUrl=statisticUrl+'&ms='+new
-        Date().getTime();$.get(statisticUrl);return true;}\n$(document).ready(function(){Kj.View.initViewAdActions({adId:'418980624',reportdata:\"\\0032\\003Scam
+        Date().getTime();$.get(statisticUrl);return true;}\n$(document).ready(function(){Kj.View.initViewAdActions({adId:'421194421',reportdata:\"\\0032\\003Scam
         / Prohibited\\0032\\004\\0033\\003Duplicate / Spam\\0033\\004\\0035\\003No
         Longer Relevant\\0035\\004\\0031\\003Miscategorized\\0031\\004\\003r\\003Type
         In A Reason...\\003r\",url:\"http://capetown-westerncape.gumtree.co.za/c-illegalAdPanel\"});});function
@@ -1178,16 +1192,16 @@ http_interactions:
         hideModal(){$('#modalframe').remove();currentModal.close(true);currentModal=null;}\nfunction
         appendModalFrame(){$(\"#modalFrameLayer\").append('<iframe name=\"modalframe\"
         id=\"modalframe\" width=\"100%\" scrolling=\"no\" frameborder=\"0\" src=\"http://pic.classistatic.com/image/pics/classifieds/loading2.gif\"></iframe>');}\nfunction
-        submitCategory(action,l1,l2){url=\"AdId=418980624&ViolationType=1\";if(action==\"submit\"){try{url+=\"&L1CatId=\"+l1+\"&L2CatId=\"+l2;}catch(err){}}\ndoFlag(url);hideModal();setTimeout('goTop()',800);}\nfunction
-        submitIllegal(action,email,msg){url=\"AdId=418980624&ViolationType=4\";if(action==\"submit\"){try{url+=\"&Email=\"+email+\"&Description=\"+msg;}catch(err){alert(err);}}\nelse{hideModal();return
-        false;}\ndoFlag(url);hideModal();setTimeout('goTop()',800);}\nfunction goTop(){$(document).scrollTop(0);}\nKj.View.initBotBlocker({bbUrl:\"/BbAudio?tokenstring=AQAAAToewCkXAAcCIADMM%2Bv1OOsnCct0R4IvcMhAz4kj%2FItyQ7Xm\"});$(document).ready(function(){Kj.View.initReplyToAd({copyme:\"CopyMe\",catpath:'Home+%26+Garden/furniture'});});$(document).ready(function(){$(\".mangeads,
+        submitCategory(action,l1,l2){url=\"AdId=421194421&ViolationType=1\";if(action==\"submit\"){try{url+=\"&L1CatId=\"+l1+\"&L2CatId=\"+l2;}catch(err){}}\ndoFlag(url);hideModal();setTimeout('goTop()',800);}\nfunction
+        submitIllegal(action,email,msg){url=\"AdId=421194421&ViolationType=4\";if(action==\"submit\"){try{url+=\"&Email=\"+email+\"&Description=\"+msg;}catch(err){alert(err);}}\nelse{hideModal();return
+        false;}\ndoFlag(url);hideModal();setTimeout('goTop()',800);}\nfunction goTop(){$(document).scrollTop(0);}\nKj.View.initBotBlocker({bbUrl:\"/BbAudio?tokenstring=AQAAATpH8whfAAc1HAC7A0QeOXIsaIK5SZn6bABGzUWIstFCyjKK\"});$(document).ready(function(){Kj.View.initReplyToAd({copyme:\"CopyMe\",catpath:'Home+%26+Garden/furniture'});});$(document).ready(function(){$(\".mangeads,
         .alternate-mangeads-items\").click(function(e){var target=e.target;if(target.id){switch(target.id){case'mng_edit':on_action_select('edit','EditClick');break;case'mng_promote':on_action_select('promote','PromoteClick');break;case'mng_delete':$('#RemoveAd').modal();break;}}});$(\"#surveyBtn\").click(function(e){var
         surVal=$(\"input[name='SurveyResponse']:checked\").val();document.manageyouradfrm.SurveyResponse.value=surVal;on_action_select('delete','DeleteClick');});});function
-        on_action_select(action,trackaction){document.manageyouradfrm.Action.value=action;Kj.Ga.trackEventsinGA({category:'VIP_Manage_My_Ads',action:'VIP_ManageAds_'+trackaction,opt_label:'Home+%26+Garden/furniture',track_on_area_level:true});document.manageyouradfrm.submit();}\n$(document).ready(function(){Kj.View.initWebsiteClk({websiteClickUrl:'http://capetown-westerncape.gumtree.co.za/c-UpdateClickCount?AdId=418980624&counterType=website'});});$(document).ready(function(){$('#AreaHomeTab,#SiteHomeTab').click(function(e){trackHomeTabDropdown('tabname')});$('#AreaHomeText,#SiteHomeText').addClass('browse');var
+        on_action_select(action,trackaction){document.manageyouradfrm.Action.value=action;Kj.Ga.trackEventsinGA({category:'VIP_Manage_My_Ads',action:'VIP_ManageAds_'+trackaction,opt_label:'Home+%26+Garden/furniture',track_on_area_level:true});document.manageyouradfrm.submit();}\n$(document).ready(function(){Kj.View.initWebsiteClk({websiteClickUrl:'http://capetown-westerncape.gumtree.co.za/c-UpdateClickCount?AdId=421194421&counterType=website'});});$(document).ready(function(){$('#AreaHomeTab,#SiteHomeTab').click(function(e){trackHomeTabDropdown('tabname')});$('#AreaHomeText,#SiteHomeText').addClass('browse');var
         freeIcon=$('#freeIcon2');if(freeIcon.length>0){freeIcon.click(function(e){document.location='c-SelectCategory';return
         false;});}\n$('.BigSearch').attachHoverPopup('#CategoryDropdown');});Kj.initGA({isGaSiteTrackerId:true,isGaTrackerId:true});Kj.initReady({});\r\n//
         End-TAIL JS\r\n</script>\r\n<!-- customJs -->\r\n<!-- End of HtmlPageTail
         -->\r\n<div id=\"flashCookie\"></div>\r\n<div id=\"myFavorites-panel\"> </div>\r\n<script>\r\nKj.initFavoritesFunctionality({domain:'capetown-westerncape.gumtree.co.za',panelActivated:'true',staticsPath:'http://include.classistatic.com/include/e793_5/c3js/classifieds/rel1/'});\r\n</script>\r\n</body></html>\r\n\r\n"
     http_version: 
-  recorded_at: Tue, 02 Oct 2012 20:40:03 GMT
+  recorded_at: Wed, 10 Oct 2012 16:41:50 GMT
 recorded_with: VCR 2.2.5
