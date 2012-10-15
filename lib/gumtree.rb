@@ -38,33 +38,23 @@ class Gumtree
   def connected?
     @connected
   end
-
+  
   def post_ad(user_params)
     
+    unless
+      ["CatId", "Title", "Description", "MapAddress", "Price"].all? do |key|
+        user_params.key?(key)
+      end
+      raise "Please pass in all the required paramaters" 
+    end
+    
     default_params = {
-      "PreviewAd" => "",
-      "ChangeCategory" => "",
-      "ShowTerms" => "",
-      "ChangePhoto" => "",
-      "Phone" => "",
-      "AdId" => "",
-      "Guid" => "",
-      "SurveyResponse" => "",
-      "extraInfo" => "",
-      "useBasicUpload" => "false",
       "RequestRefererUrl" => "%252C%2C%252C",
+      "useBasicUpload" => "false",
       "ReformattedDesc" => "0",
-      "AdType" => "1",
+      "AdType" => "2",
       "A_ForSaleBy" => "ownr",
-      "Photo" => "",
-      "AddressStreet" => "",
-      "AddressCity" => "",
-      "AddressRegion" => "",
-      "AddressZip" => "",
       "AddressConfidenceLevel" => "0",
-      "AddressLatitude" => "",
-      "AddressLongitude" => "",
-      "AddressCounty" => "",
       "AddressSelectedByUser" => "false",
       "featuredAdDuration" => "0",
       "text_loading" => "Loading...",

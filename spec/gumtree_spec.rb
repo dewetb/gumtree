@@ -14,9 +14,7 @@ describe Gumtree do
     params = {
       "CatId" => "9181",
       "Title" => "Red two seater sofa and different armchair",
-      "Description" => "Red two seater sofa and different armchair. Red two seater sofa and different armchair.",
-      "Email" => ENV.fetch("GUMTREE_USERNAME"),
-      "SubArea" => "3100240",
+      "Description" => "I would prefer to describe it as a red two seater sofa and different armchair.",
       "MapAddress" => "South Africa",
       "Price" => "15000",
     }
@@ -37,4 +35,15 @@ describe Gumtree do
       gumtree_ad.delete
     end
   end
+
+  it "should raise an exception when an ad is not complete" do
+    params = {
+      "Title" => "Red two seater sofa and different armchair",
+    }
+    VCR.use_cassette("gumtree-ad_complete?") do
+      @gumtree = Gumtree.new("capetown-westerncape", ENV.fetch("GUMTREE_USERNAME"), ENV.fetch("GUMTREE_PASSWORD"))
+      expect { gumtree_ad = @gumtree.post_ad(params) }.to raise_error(RuntimeError)
+    end
+  end
+  
 end
