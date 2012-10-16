@@ -19,14 +19,14 @@ http_interactions:
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
         YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTExXmd1aWQ9MkFRQUFB
-        VGdPNmM0QUFNNEFNREUzTURaa1ltUXpMVGd6TnpZdE5EZzROaTA0WlRRMkxU
-        aGpNV013T1RSbE5USTNZaTB4TTJFMU5qQXlNalU1WW9JbHF1ZlAyYmtycjVU
-        bkRnOVJGY3JuZFFFWjsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
-        PVNhdCwgMTItT2N0LTIwMTMgMTc6MjU6MTIgR01UOyBQYXRoPS8=
+        VGdPNmM0QUFNNEFNRFV5WkRjeFptRTVMV1ZrWm1RdE5HVXlaUzA1WVROa0xU
+        RXhNelk0T1RBek9XVTROaTB4TTJFMk9XUTBNakJoTkpseWJIbnpYYVkrNjRO
+        ZkhpNTV5Slc4KytacjsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
+        PVdlZCwgMTYtT2N0LTIwMTMgMTM6NDc6MjAgR01UOyBQYXRoPS8=
       - !binary |-
-        Y2xzLWxhc3QtdmlzaXQ9MTM1MDA2MjcxMjIyNzsgRG9tYWluPWNhcGV0b3du
-        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U2F0LCAxMi1P
-        Y3QtMjAxMyAxNzoyNToxMiBHTVQ7IFBhdGg9Lw==
+        Y2xzLWxhc3QtdmlzaXQ9MTM1MDM5NTI0MDYxOTsgRG9tYWluPWNhcGV0b3du
+        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9V2VkLCAxNi1P
+        Y3QtMjAxMyAxMzo0NzoyMCBHTVQ7IFBhdGg9Lw==
       !binary "UDNw":
       - !binary |-
         Q1A9IkNBTyBQU0EgT1VSIg==
@@ -41,7 +41,7 @@ http_interactions:
         QWNjZXB0LUVuY29kaW5n
       !binary "RGF0ZQ==":
       - !binary |-
-        RnJpLCAxMiBPY3QgMjAxMiAxNzoyNToxMSBHTVQ=
+        VHVlLCAxNiBPY3QgMjAxMiAxMzo0NzoyMCBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         Y29uZmlkZW50aWFs
@@ -362,7 +362,7 @@ http_interactions:
         End-TAIL JS\r\n\t</script>\r\n\t\r\n\t\r\n\t <!-- customJs -->\r\n     \r\n\t<!--
         End of HtmlPageTail -->\r\n</body>\r\n</html>\r\n\r\n"
     http_version: 
-  recorded_at: Fri, 12 Oct 2012 17:25:11 GMT
+  recorded_at: Tue, 16 Oct 2012 13:47:21 GMT
 - request:
     method: post
     uri: https://secure.gumtree.co.za/capetown-westerncape/s-SignIn
@@ -379,7 +379,7 @@ http_interactions:
       Content-Type:
       - application/x-www-form-urlencoded
       Cookie:
-      - area_preference=Vrandom_marker=11^guid=2AQAAATgO6c4AAM4AMDE3MDZkYmQzLTgzNzYtNDg4Ni04ZTQ2LThjMWMwOTRlNTI3Yi0xM2E1NjAyMjU5YoIlqufP2bkrr5TnDg9RFcrndQEZ
+      - area_preference=Vrandom_marker=11^guid=2AQAAATgO6c4AAM4AMDUyZDcxZmE5LWVkZmQtNGUyZS05YTNkLTExMzY4OTAzOWU4Ni0xM2E2OWQ0MjBhNJlybHnzXaY+64NfHi55yJW8++Zr
   response:
     status:
       code: 302
@@ -389,25 +389,25 @@ http_interactions:
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
         YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTExXmd1aWQ9MkFRQUFB
-        VGdPNmM0QUFNNEFNREUzTURaa1ltUXpMVGd6TnpZdE5EZzROaTA0WlRRMkxU
-        aGpNV013T1RSbE5USTNZaTB4TTJFMU5qQXlNalU1WW9JbHF1ZlAyYmtycjVU
-        bkRnOVJGY3JuZFFFWjsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
-        PVNhdCwgMTItT2N0LTIwMTMgMTc6MjU6MTIgR01UOyBQYXRoPS8=
+        VGdPNmM0QUFNNEFNRFV5WkRjeFptRTVMV1ZrWm1RdE5HVXlaUzA1WVROa0xU
+        RXhNelk0T1RBek9XVTROaTB4TTJFMk9XUTBNakJoTkpseWJIbnpYYVkrNjRO
+        ZkhpNTV5Slc4KytacjsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
+        PVdlZCwgMTYtT2N0LTIwMTMgMTM6NDc6MjEgR01UOyBQYXRoPS8=
       - !binary |-
-        Y2xzLWxhc3QtdmlzaXQ9MTM1MDA2MjcxMjc3OTsgRG9tYWluPWNhcGV0b3du
-        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U2F0LCAxMi1P
-        Y3QtMjAxMyAxNzoyNToxMiBHTVQ7IFBhdGg9Lw==
+        Y2xzLWxhc3QtdmlzaXQ9MTM1MDM5NTI0MTk1MjsgRG9tYWluPWNhcGV0b3du
+        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9V2VkLCAxNi1P
+        Y3QtMjAxMyAxMzo0NzoyMSBHTVQ7IFBhdGg9Lw==
       - !binary |-
         a3VpZD1WaXNmYj1mYWxzZTsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBQYXRo
         PS8=
       - !binary |-
-        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNlZnSW55
-        QUFBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
-        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTWpjMU5UY2tRMWQzWW5S
-        MlZIRldNV3BGTTJweWEzcHFXR3RZTHdBQUFUcFdBaWZLZUY0dmdTc05ja2du
-        dGxZc3lJRmF1T3VpaFNjKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
-        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9VHVlLCAxMS1EZWMtMjAxMiAxNzoy
-        NToxMiBHTVQ7IFBhdGg9Lw==
+        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNmFkUWwz
+        UUFBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
+        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTkRVNE56a2tkbTlWVjA0
+        MlVVcExhR2d6VDAxVVRqVlVNMWN3TGdBQUFUcHAxQ1hmQlFDaEt3cGdDbzg2
+        WHdhV1A3Ky8reGlXRmlZKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
+        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U2F0LCAxNS1EZWMtMjAxMiAxMzo0
+        NzoyMSBHTVQ7IFBhdGg9Lw==
       !binary "TG9jYXRpb24=":
       - !binary |-
         aHR0cHM6Ly9zZWN1cmUuZ3VtdHJlZS5jby56YS9jYXBldG93bi13ZXN0ZXJu
@@ -423,7 +423,7 @@ http_interactions:
         QWNjZXB0LUVuY29kaW5n
       !binary "RGF0ZQ==":
       - !binary |-
-        RnJpLCAxMiBPY3QgMjAxMiAxNzoyNToxMiBHTVQ=
+        VHVlLCAxNiBPY3QgMjAxMiAxMzo0NzoyMSBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         Y29uZmlkZW50aWFs
@@ -431,7 +431,7 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Fri, 12 Oct 2012 17:25:12 GMT
+  recorded_at: Tue, 16 Oct 2012 13:47:22 GMT
 - request:
     method: get
     uri: https://secure.gumtree.co.za/capetown-westerncape/s-SignInVerify
@@ -443,8 +443,8 @@ http_interactions:
       - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.1 (KHTML, like
         Gecko) Chrome/21.0.1180.89 Safari/537.1
       Cookie:
-      - area_preference=Vrandom_marker=11^guid=2AQAAATgO6c4AAM4AMDE3MDZkYmQzLTgzNzYtNDg4Ni04ZTQ2LThjMWMwOTRlNTI3Yi0xM2E1NjAyMjU5YoIlqufP2bkrr5TnDg9RFcrndQEZ;
-        kuid=Visfb=false; na=Vug=ZGV3ZXRi^na=2AQAAATnRhkAAAMoAAAE6VgInyAAAAAABdPGbAQEABmRld2V0YgAfJDEkOTE4NzIkcnBjMnJKMGoycEdieWNiTTVtV2FWMAAfJDEkMjc1NTckQ1d3YnR2VHFWMWpFM2pya3pqWGtYLwAAATpWAifKeF4vgSsNckgntlYsyIFauOuihSc*^keep_logged_in=true
+      - area_preference=Vrandom_marker=11^guid=2AQAAATgO6c4AAM4AMDUyZDcxZmE5LWVkZmQtNGUyZS05YTNkLTExMzY4OTAzOWU4Ni0xM2E2OWQ0MjBhNJlybHnzXaY+64NfHi55yJW8++Zr;
+        kuid=Visfb=false; na=Vug=ZGV3ZXRi^na=2AQAAATnRhkAAAMoAAAE6adQl3QAAAAABdPGbAQEABmRld2V0YgAfJDEkOTE4NzIkcnBjMnJKMGoycEdieWNiTTVtV2FWMAAfJDEkNDU4Nzkkdm9VV042UUpLaGgzT01UTjVUM1cwLgAAATpp1CXfBQChKwpgCo86XwaWP7+/+xiWFiY*^keep_logged_in=true
   response:
     status:
       code: 302
@@ -454,25 +454,25 @@ http_interactions:
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
         YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTExXmd1aWQ9MkFRQUFB
-        VGdPNmM0QUFNNEFNREUzTURaa1ltUXpMVGd6TnpZdE5EZzROaTA0WlRRMkxU
-        aGpNV013T1RSbE5USTNZaTB4TTJFMU5qQXlNalU1WW9JbHF1ZlAyYmtycjVU
-        bkRnOVJGY3JuZFFFWjsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
-        PVNhdCwgMTItT2N0LTIwMTMgMTc6MjU6MTMgR01UOyBQYXRoPS8=
+        VGdPNmM0QUFNNEFNRFV5WkRjeFptRTVMV1ZrWm1RdE5HVXlaUzA1WVROa0xU
+        RXhNelk0T1RBek9XVTROaTB4TTJFMk9XUTBNakJoTkpseWJIbnpYYVkrNjRO
+        ZkhpNTV5Slc4KytacjsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBFeHBpcmVz
+        PVdlZCwgMTYtT2N0LTIwMTMgMTM6NDc6MjIgR01UOyBQYXRoPS8=
       - !binary |-
-        Y2xzLWxhc3QtdmlzaXQ9MTM1MDA2MjcxMzAwMzsgRG9tYWluPWNhcGV0b3du
-        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U2F0LCAxMi1P
-        Y3QtMjAxMyAxNzoyNToxMyBHTVQ7IFBhdGg9Lw==
+        Y2xzLWxhc3QtdmlzaXQ9MTM1MDM5NTI0Mjc5NzsgRG9tYWluPWNhcGV0b3du
+        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9V2VkLCAxNi1P
+        Y3QtMjAxMyAxMzo0NzoyMiBHTVQ7IFBhdGg9Lw==
       - !binary |-
         a3VpZD1WaXNmYj1mYWxzZTsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBQYXRo
         PS8=
       - !binary |-
-        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNlZnSW9v
-        d0FBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
-        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTWpjMU5UY2tRMWQzWW5S
-        MlZIRldNV3BGTTJweWEzcHFXR3RZTHdBQUFUcFdBaWZLK0Y2WVU4VCtEbFNR
-        RFVCYWhHcENpN2JFcWlRKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
-        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9VHVlLCAxMS1EZWMtMjAxMiAxNzoy
-        NToxMyBHTVQ7IFBhdGg9Lw==
+        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNmFkUXBK
+        UUFBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
+        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTkRVNE56a2tkbTlWVjA0
+        MlVVcExhR2d6VDAxVVRqVlVNMWN3TGdBQUFUcHAxQ1hmdXdDWkVBZUp1eW5n
+        L2lLc0J2eXMvNGlGd1lrKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
+        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U2F0LCAxNS1EZWMtMjAxMiAxMzo0
+        NzoyMiBHTVQ7IFBhdGg9Lw==
       !binary "TG9jYXRpb24=":
       - !binary |-
         aHR0cDovL2NhcGV0b3duLXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE=
@@ -487,7 +487,7 @@ http_interactions:
         QWNjZXB0LUVuY29kaW5n
       !binary "RGF0ZQ==":
       - !binary |-
-        RnJpLCAxMiBPY3QgMjAxMiAxNzoyNToxMyBHTVQ=
+        VHVlLCAxNiBPY3QgMjAxMiAxMzo0NzoyMiBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         Y29uZmlkZW50aWFs
@@ -495,7 +495,7 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Fri, 12 Oct 2012 17:25:12 GMT
+  recorded_at: Tue, 16 Oct 2012 13:47:23 GMT
 - request:
     method: get
     uri: http://capetown-westerncape.gumtree.co.za/c-MyAds?Action=DELETE_ADS&Mode=ACTIVE&RowId=417372267&SurveyResponse=4
@@ -507,8 +507,8 @@ http_interactions:
       - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.1 (KHTML, like
         Gecko) Chrome/21.0.1180.89 Safari/537.1
       Cookie:
-      - area_preference=Vrandom_marker=11^guid=2AQAAATgO6c4AAM4AMDE3MDZkYmQzLTgzNzYtNDg4Ni04ZTQ2LThjMWMwOTRlNTI3Yi0xM2E1NjAyMjU5YoIlqufP2bkrr5TnDg9RFcrndQEZ;
-        cls-last-visit=1350062713003; kuid=Visfb=false; na=Vug=ZGV3ZXRi^na=2AQAAATnRhkAAAMoAAAE6VgIoowAAAAABdPGbAQEABmRld2V0YgAfJDEkOTE4NzIkcnBjMnJKMGoycEdieWNiTTVtV2FWMAAfJDEkMjc1NTckQ1d3YnR2VHFWMWpFM2pya3pqWGtYLwAAATpWAifK+F6YU8T+DlSQDUBahGpCi7bEqiQ*^keep_logged_in=true
+      - area_preference=Vrandom_marker=11^guid=2AQAAATgO6c4AAM4AMDUyZDcxZmE5LWVkZmQtNGUyZS05YTNkLTExMzY4OTAzOWU4Ni0xM2E2OWQ0MjBhNJlybHnzXaY+64NfHi55yJW8++Zr;
+        cls-last-visit=1350395242797; kuid=Visfb=false; na=Vug=ZGV3ZXRi^na=2AQAAATnRhkAAAMoAAAE6adQpJQAAAAABdPGbAQEABmRld2V0YgAfJDEkOTE4NzIkcnBjMnJKMGoycEdieWNiTTVtV2FWMAAfJDEkNDU4Nzkkdm9VV042UUpLaGgzT01UTjVUM1cwLgAAATpp1CXfuwCZEAeJuyng/iKsBvys/4iFwYk*^keep_logged_in=true
   response:
     status:
       code: 200
@@ -518,26 +518,26 @@ http_interactions:
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
         YXJlYV9wcmVmZXJlbmNlPVZyYW5kb21fbWFya2VyPTExXm15a2lqaWppcGFn
-        ZT1NYW5hZ2VNeUFkc15ndWlkPTJBUUFBQVRnTzZjNEFBTTRBTURFM01EWmtZ
-        bVF6TFRnek56WXRORGc0TmkwNFpUUTJMVGhqTVdNd09UUmxOVEkzWWkweE0y
-        RTFOakF5TWpVNVlvSWxxdWZQMmJrcnI1VG5EZzlSRmNybmRRRVo7IERvbWFp
-        bj0uZ3VtdHJlZS5jby56YTsgRXhwaXJlcz1TYXQsIDEyLU9jdC0yMDEzIDE3
-        OjI1OjEzIEdNVDsgUGF0aD0v
+        ZT1NYW5hZ2VNeUFkc15ndWlkPTJBUUFBQVRnTzZjNEFBTTRBTURVeVpEY3ha
+        bUU1TFdWa1ptUXROR1V5WlMwNVlUTmtMVEV4TXpZNE9UQXpPV1U0TmkweE0y
+        RTJPV1EwTWpCaE5KbHliSG56WGFZKzY0TmZIaTU1eUpXOCsrWnI7IERvbWFp
+        bj0uZ3VtdHJlZS5jby56YTsgRXhwaXJlcz1XZWQsIDE2LU9jdC0yMDEzIDEz
+        OjQ3OjIzIEdNVDsgUGF0aD0v
       - !binary |-
-        Y2xzLWxhc3QtdmlzaXQ9MTM1MDA2MjcxMzMxMjsgRG9tYWluPWNhcGV0b3du
-        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U2F0LCAxMi1P
-        Y3QtMjAxMyAxNzoyNToxMyBHTVQ7IFBhdGg9Lw==
+        Y2xzLWxhc3QtdmlzaXQ9MTM1MDM5NTI0Mzg1NzsgRG9tYWluPWNhcGV0b3du
+        LXdlc3Rlcm5jYXBlLmd1bXRyZWUuY28uemE7IEV4cGlyZXM9V2VkLCAxNi1P
+        Y3QtMjAxMyAxMzo0NzoyMyBHTVQ7IFBhdGg9Lw==
       - !binary |-
         a3VpZD1WaXNmYj1mYWxzZTsgRG9tYWluPS5ndW10cmVlLmNvLnphOyBQYXRo
         PS8=
       - !binary |-
-        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNlZnSXB3
+        bmE9VnVnPVpHVjNaWFJpXm5hPTJBUUFBQVRuUmhrQUFBTW9BQUFFNmFkUXRO
         Z0FBQUFBQmRQR2JBUUVBQm1SbGQyVjBZZ0FmSkRFa09URTROeklrY25Cak1u
-        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTWpjMU5UY2tRMWQzWW5S
-        MlZIRldNV3BGTTJweWEzcHFXR3RZTHdBQUFUcFdBaWZLYnM4Y3ZuTTMzZU81
-        blFzaXg4d1hENUUwUVlZKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
-        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9VHVlLCAxMS1EZWMtMjAxMiAxNzoy
-        NToxMyBHTVQ7IFBhdGg9Lw==
+        SktNR295Y0VkaWVXTmlUVFZ0VjJGV01BQWZKREVrTkRVNE56a2tkbTlWVjA0
+        MlVVcExhR2d6VDAxVVRqVlVNMWN3TGdBQUFUcHAxQ1hmUjlpOERaejhYWVVt
+        anY0cmpoOGVzRytWQitVKl5rZWVwX2xvZ2dlZF9pbj10cnVlOyBEb21haW49
+        Lmd1bXRyZWUuY28uemE7IEV4cGlyZXM9U2F0LCAxNS1EZWMtMjAxMiAxMzo0
+        NzoyMyBHTVQ7IFBhdGg9Lw==
       !binary "UDNw":
       - !binary |-
         Q1A9IkNBTyBQU0EgT1VSIg==
@@ -546,10 +546,10 @@ http_interactions:
         dGV4dC9odG1sO2NoYXJzZXQ9dXRmLTg=
       !binary "Q29udGVudC1MZW5ndGg=":
       - !binary |-
-        NTM0Mjg=
+        NTMzMTk=
       !binary "RGF0ZQ==":
       - !binary |-
-        RnJpLCAxMiBPY3QgMjAxMiAxNzoyNToxMyBHTVQ=
+        VHVlLCAxNiBPY3QgMjAxMiAxMzo0NzoyMyBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         Y29uZmlkZW50aWFs
@@ -578,12 +578,12 @@ http_interactions:
         name=\"DCSext.page\" content=\"MyAds\">\r\n\t\t\t<meta name=\"DCSext.user\"
         content=\"24441243\">\r\n\t\t\t<meta name=\"DCSext.locale\" content=\"en_ZA\">\r\n\t\r\n\t\r\n\t\t<link
         rel=\"SHORTCUT ICON\" href=\"http://pic.classistatic.com/image/pics/classifieds/gumtreeFavicon.ico\">\t\t\r\n\t\r\n\t\r\n\t\r\n\t\t<link
-        href=\"http://include.classistatic.com/include/e793_5/c3css/pages/OtherShared-min.css\"
-        rel=\"stylesheet\" type=\"text/css\">\r\n\t\t<link href=\"http://include.classistatic.com/include/e793_5/c3css/brands/gumtree/ZA/all-en.css\"
+        href=\"http://include.classistatic.com/include/e795/c3css/pages/OtherShared-min.css\"
+        rel=\"stylesheet\" type=\"text/css\">\r\n\t\t<link href=\"http://include.classistatic.com/include/e795/c3css/brands/gumtree/ZA/all-en.css\"
         rel=\"stylesheet\" type=\"text/css\">\r\n\t<!--\t\t\r\n\t-->\r\n\t<script
         type=\"text/javascript\">\r\n\t//<!--\r\n\t\tvar picsPath = \"http://pic.classistatic.com/image/pics/classifieds/\";\r\n\t\tvar
-        staticPath = \"http://include.classistatic.com/include/e793_5/c3js/classifieds/rel1/\";\r\n\t\t//-->\r\n\t</script>\r\n\t<script
-        type=\"text/javascript\" language=\"JavaScript\" src=\"http://include.classistatic.com/include/e793_5/c3js/classifieds/rel1/common/jquery-1.5.2-basic-min.js\"></script>\r\n\t\r\n
+        staticPath = \"http://include.classistatic.com/include/e795/c3js/classifieds/rel1/\";\r\n\t\t//-->\r\n\t</script>\r\n\t<script
+        type=\"text/javascript\" language=\"JavaScript\" src=\"http://include.classistatic.com/include/e795/c3js/classifieds/rel1/common/jquery-1.5.2-basic-min.js\"></script>\r\n\t\r\n
         \ \r\n\t\r\n\t<noscript>\r\n\t    <style type=\"text/css\">\r\n  \t\t\t.jsonly
         {display:none;} \r\n\t\t\t.collapseWithJS {display:block;}\r\n\t\t\t.collapseWithJS_inline
         {display:inline;}\r\n\t\t</style>\r\n\t</noscript>\t\r\n\t\r\n\t\r\n\t\r\n\t</head>\r\n\t<!--
@@ -649,7 +649,7 @@ http_interactions:
         id=\"searchCat\" class=\"jsonly kjmenu_main_wrap\"><div id=\"searchCat_name\"
         class=\"kjmenu_main_text\">All Ads</div><span><img border=\"0\" src=\"http://pic.classistatic.com/image/pics/classifieds/en-ZA/browseAds_arrow.gif\"
         style=\"flow:bottom\"/></span>\r\n\t\t\t\t\t\t\t\t\t\t\t<input class=\"jsonly\"
-        type=\"hidden\" name=\"CatId\" value=\"0\"/></div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        type=\"hidden\" name=\"CatId\" value=\"0\"/></div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
         class=\"ww_table\" style=\"padding-left:10px\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
         id=\"searchLoc\" class=\"jsonly kjmenu_main_wrap\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div
         id=\"searchLoc_name\" class=\"kjmenu_main_text\">Cape Town / Western Cape</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span><img
@@ -828,16 +828,16 @@ http_interactions:
         end of column headers -->\r\n\t\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t<!--
         start of column data -->\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"8\"
         style=\"border:0px;padding:1px 0px 3px 0px;\" \r\n\t\t\t\t\t\t\talign=\"left\"
-        nowrap=\"true\" id=\"msg421806381\">\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\t\r\n\t\t\t\t\t<tr
-        id=\"421806381\" >\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<td align=\"left\" nowrap=\"nowrap\"
+        nowrap=\"true\" id=\"msg422899948\">\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\t\r\n\t\t\t\t\t<tr
+        id=\"422899948\" >\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<td align=\"left\" nowrap=\"nowrap\"
         style=\"padding:5px;\">\r\n\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"RowId\"
-        \ value=\"421806381\" class=\"jsonly\" >\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td
+        \ value=\"422899948\" class=\"jsonly\" >\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td
         class=\"row\" width=\"2%\" align=\"left\" style=\"vertical-align:middle;\">\r\n\t\t\t\t\t\t\t\t\t\r\n<a
-        href=\"http://capetown-westerncape.gumtree.co.za/c-Home-Garden-furniture-Red-two-seater-sofa-and-different-armchair-W0QQAdIdZ421806381\"
+        href=\"http://capetown-westerncape.gumtree.co.za/c-Home-Garden-furniture-Red-two-seater-sofa-and-different-armchair-W0QQAdIdZ422899948\"
         style=\"text-decoration: none;\" ><img border=\"0\" src=\"http://pic.classistatic.com/image/pics/classifieds/en-ZA/image_placeholder_gt1.gif\"
         title=\"Red two seater sofa and different armchair\"/></a> &nbsp;\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td
         class=\"row\" width=\"25%\" nowrap=\"nowrap\" align=\"left\" style=\"vertical-align:middle;\">\r\n\t\t\t\t\t\t\t\t\t\r\n<a
-        title=\"\" href=\"http://capetown-westerncape.gumtree.co.za/c-Home-Garden-furniture-Red-two-seater-sofa-and-different-armchair-W0QQAdIdZ421806381\"
+        title=\"\" href=\"http://capetown-westerncape.gumtree.co.za/c-Home-Garden-furniture-Red-two-seater-sofa-and-different-armchair-W0QQAdIdZ422899948\"
         >Red two seater sofa and different armchair</a>&nbsp;<br>\r\n\t\t\t\t\t\t\t
         \r\n\t\t\t\t\t\t\tCategory:\r\n\t\t\t\t\t\t\t\t\t\r\n<a title=\"\" href=\"http://capetown-westerncape.gumtree.co.za/f-Home-Garden-furniture-W0QQCatIdZ9181\"
         >furniture</a>&nbsp;\r\n\t\t\t\t\t\t\t<br>\r\n\t\t\t\t\t\t\tLocation:\r\n\t\r\n<a
@@ -852,7 +852,7 @@ http_interactions:
         class=\"pEdit\" title='Edit Price' style=\"display:none\"/>\r\n\t\t\t\t<img
         border=\"0\" src=\"http://pic.classistatic.com/image/pics/classifieds/icon_save.gif\"
         class=\"pSave\" title='Save Changes' style=\"display:none\"/>\r\n\t\t\t</div>\r\n\t</div>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t<td
-        align=\"left\" nowrap=\"true\" class=\"row\" style=\"vertical-align:middle;\">\r\n\t\t\t\t\t\t\t\t\t12/10/2012
+        align=\"left\" nowrap=\"true\" class=\"row\" style=\"vertical-align:middle;\">\r\n\t\t\t\t\t\t\t\t\t16/10/2012
         &nbsp;\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t<td align=\"center\" nowrap=\"true\"
         class=\"row\" style=\"vertical-align:middle;\"> \r\n\t\t\t\t\t\t\t\t\t\t<div
         style=\"display: block;vertical-align:middle;\">\r\n\t\t\t\t\t\t\t\t\t\t\t-&nbsp;\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t<td
@@ -862,15 +862,15 @@ http_interactions:
         align=\"center\" nowrap=\"true\" class=\"row\" style=\"vertical-align:middle;\">\r\n\t\t\t\t\t\t\t\t\t<div
         style=\"display: block;vertical-align:middle;\">\r\n\t\t\t\t\t\t\t\t\t\t1&nbsp;\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</td>\t\t\t\t\t\r\n\t\t\t\t\t\t<td
         align=\"left\" nowrap=\"true\" class=\"row\" style=\"vertical-align:middle;\">\r\n\t\t\t\t\t\t\t\t\t\r\n&nbsp;<a
-        href=\"http://capetown-westerncape.gumtree.co.za/c-PromoteMyAds?AdId=421806381&Mode=ACTIVE\"
+        href=\"http://capetown-westerncape.gumtree.co.za/c-PromoteMyAds?AdId=422899948&Mode=ACTIVE\"
         style=\"text-decoration:none;\" onClick=\"gAnalyticsPush('ManageMyAds-Promote',
         'Home+%26+Garden/furniture')\" ><div class=\"newButton\" style=\"display:inline;padding:0px
         0px 0px 5px;\">\r\n<div class=\"mypromoteAd\" style=\"display:inline;background:url(http://pic.classistatic.com/image/pics/classifieds/options_promotead_arrow2.gif)
         left no-repeat;\">\r\nPromote</div></div></a>&nbsp;\r\n\t\t\t\t\t\t\t\t\t\r\n<a
-        title=\"Edit\" href=\"http://capetown-westerncape.gumtree.co.za/c-AdDetails?AdId=421806381&Guid=13a56021-aa50-a20b-2736-501ffffc2e38\"
-        >Edit</a>&nbsp;\r\n\t\t\t\t\t\t\t\t\t\r\n<a id=\"d-421806381\" title=\"Delete\"
-        href=\"http://capetown-westerncape.gumtree.co.za/c-ManageMyAds?Action=DELETE_ADS&Mode=ACTIVE&RowId=421806381\"
-        onClick=\"return popupRemoveAd('Red two seater sofa and different armchair','421806381','DELETE_ADS','ACTIVE',['I
+        title=\"Edit\" href=\"http://capetown-westerncape.gumtree.co.za/c-AdDetails?AdId=422899948&Guid=13a69d41-42a0-a20b-26b7-501affff0149\"
+        >Edit</a>&nbsp;\r\n\t\t\t\t\t\t\t\t\t\r\n<a id=\"d-422899948\" title=\"Delete\"
+        href=\"http://capetown-westerncape.gumtree.co.za/c-ManageMyAds?Action=DELETE_ADS&Mode=ACTIVE&RowId=422899948\"
+        onClick=\"return popupRemoveAd('Red two seater sofa and different armchair','422899948','DELETE_ADS','ACTIVE',['I
         received a sufficient number of responses to my ad on Gumtree ','I received
         a sufficient number of responses through a different source ','I did not receive
         a sufficient number of responses to my ad or my ad is no longer relevant ','Prefer
@@ -913,8 +913,7 @@ http_interactions:
         action=\"/c-RepostAd\" id=\"ManageMyAdsRepostForm\">\r\n\t\t\t<input type=\"hidden\"
         name=\"AdId\" id=\"AdId\" value=\"\"/>\r\n \t\t\t<input type=\"hidden\" name=\"Guid\"
         id=\"Guid\"  value=\"\"/>\r\n \t\t\t<input type=\"hidden\" name=\"catPath\"
-        id=\"catPath\"  value=\"\"/>\r\n \t\t\t<input type=\"hidden\" name=\"Location\"
-        id=\"Location\" value=\"\"/>\r\n\t\t\t\t<div id=\"RepostSurveyQuestion1\"></div>\r\n
+        id=\"catPath\"  value=\"\"/>\r\n\t\t\t\t<div id=\"RepostSurveyQuestion1\"></div>\r\n
         \t\t\t\t\t\t\t<div id=\"RepostSurveyQuestion2\"></div>\r\n \t\t\t\t\t\t\t<div
         id=\"RepostSurveyQuestion3\"></div>\r\n \t\t\t <br/>\t\t\r\n \t\t\t<input
         type=\"submit\" \r\n \t\t\tonClick=\"trackEventPush('Repost-SaveChanges');\"\r\n
@@ -974,8 +973,8 @@ http_interactions:
         \     <div id=\"copyright\">&nbsp;</div\r\n\t       </div>\r\n\t\t<div class=\"cpyrt\">\r\n\t\t
         \   Copyright © 2012 eBay International AG\r\n\t\t</div>\r\n\t\t\r\n\t</div>\r\n\t\t</div>\r\n\t</div>\r\n\t<!--
         Start of HtmlPageTail -->\r\n\t\r\n\t\r\n\t\r\n\t\t<script type=\"text/javascript\"
-        language=\"JavaScript\" src=\"http://include.classistatic.com/include/e793_5/c3js/classifieds/rel1/common//common_0-min.js\"></script>\r\n\t\t<script
-        type=\"text/javascript\" language=\"JavaScript\" src=\"http://include.classistatic.com/include/e793_5/c3js/classifieds/rel1/common/jquery.core-min.js\"></script>\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\t<script>\r\n\t\t\t$(document).ready(function()
+        language=\"JavaScript\" src=\"http://include.classistatic.com/include/e795/c3js/classifieds/rel1/common//common_0-min.js\"></script>\r\n\t\t<script
+        type=\"text/javascript\" language=\"JavaScript\" src=\"http://include.classistatic.com/include/e795/c3js/classifieds/rel1/common/jquery.core-min.js\"></script>\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\t<script>\r\n\t\t\t$(document).ready(function()
         {\r\n\t\t\t\t$('.onpage').attachHoverBubbleHelp('<div\\>On Page shows you
         on which page your ad is displayed in its category. The greater the page number,
         the less likely it is to be viewed.<br/\\> Please note that the number you
@@ -989,7 +988,7 @@ http_interactions:
         gCookieDomain=\".gumtree.co.za\";\r\n\t\t\tvar gDcsId=\"dcse2p3qc00000gs000fmc2q7_4q1f\";\r\n\t\t\t\r\n\t\t\t\t\t\tif
         ((document.cookie.indexOf(\"WT_FPC=\")==-1)&&(document.cookie.indexOf(\"WTLOPTOUT=\")==-1))
         {\r\n\t\t    \tdocument.write(\"<SCR\"+\"IPT TYPE='text/javascript' SRC='\"+\"http\"+(window.location.protocol.indexOf('https:')==0?'s':'')+\"://\"+gDomain+\"/\"+gDcsId+\"/wtid.js\"+\"'><\\/SCR\"+\"IPT>\");\r\n\t\t\t}\r\n\t\t</script>\r\n\t\t<script
-        type=\"text/javascript\" language=\"JavaScript\" src=\"http://include.classistatic.com/include/e793_5/c3js/classifieds/rel1/webtrends_common.js\"></script>\r\n\t\r\n\t<!--
+        type=\"text/javascript\" language=\"JavaScript\" src=\"http://include.classistatic.com/include/e795/c3js/classifieds/rel1/webtrends_common.js\"></script>\r\n\t\r\n\t<!--
         GoogleAnalytics Tracker-->\r\n\t   \t\t<script type=\"text/javascript\">\n\t\t\tvar
         _gaq = _gaq || []; \n\t\t\t_gaq.push(['_setAccount', 'UA-3991521-7']);\n\t\t\t_gaq.push(['_setSessionCookieTimeout',
         900000]);\n\t\t\t_gaq.push(['_setCampaignCookieTimeout', 2592000000]);\n\t\t\t_gaq.push(['_setVisitorCookieTimeout',
@@ -1003,7 +1002,7 @@ http_interactions:
         document.location.protocol ? \"https://ssl\"   : \"http://www\") + \".google-analytics.com/ga.js\";
         \r\n\t\t\t\tvar s = document.getElementsByTagName(\"script\")[0]; s.parentNode.insertBefore(ga,
         s); \r\n\t\t\t\t})(); \r\n\t\t    </script>\r\n\t<!-- End of GoogleAnalytics
-        Tracker-->\r\n\t\r\n\t<script>\t   Kj.initMachineId({isProduction:true,cookiePath:'http://include.classistatic.com/include/e793_5/c3js/classifieds/rel1/FLASH/'});\r\n
+        Tracker-->\r\n\t\r\n\t<script>\t   Kj.initMachineId({isProduction:true,cookiePath:'http://include.classistatic.com/include/e795/c3js/classifieds/rel1/FLASH/'});\r\n
         \   </script>\r\n\r\n \t\r\n \t          <!-- CC JS Includes -->\r\n\t\t    \t\r\n\t\r\n\t<script
         type=\"text/javascript\" charset=\"UTF-8\">\r\n\t\t  \r\n\t\t\t   //start-CC
         JS\r\n\t\t\t    \t\nvar headElem=document.getElementsByTagName(\"head\")[0];var
@@ -1106,5 +1105,5 @@ http_interactions:
         End-TAIL JS\r\n\t</script>\r\n\t\r\n\t\r\n\t <!-- customJs -->\r\n     \r\n\t<!--
         End of HtmlPageTail -->\r\n</body>\r\n</html>\r\n\r\n"
     http_version: 
-  recorded_at: Fri, 12 Oct 2012 17:25:13 GMT
+  recorded_at: Tue, 16 Oct 2012 13:47:25 GMT
 recorded_with: VCR 2.2.5
