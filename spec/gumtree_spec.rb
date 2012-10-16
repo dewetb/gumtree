@@ -12,7 +12,7 @@ describe Gumtree do
 
   it "should create ads" do
     params = {
-      "CatId" => "9181",
+      "CatId" => Categories::Home_Garden::FURNITURE,
       "Title" => "Red two seater sofa and different armchair",
       "Description" => "I would prefer to describe it as a red two seater sofa and different armchair.",
       "MapAddress" => "South Africa",
@@ -46,4 +46,19 @@ describe Gumtree do
     end
   end
   
+  it "should evaluate completeness of ads based on category" do
+    params = {
+      "CatId" => Categories::Services::PHOTOGRAPHY_VIDEO,
+      "Title" => "Awesome photography",
+      "Description" => "I would prefer to describe it as the best photography ever!",
+      "MapAddress" => "South Africa",
+    }
+    VCR.use_cassette("gumtree-post_ad_services") do
+      @gumtree = Gumtree.new("capetown-westerncape", ENV.fetch("GUMTREE_USERNAME"), ENV.fetch("GUMTREE_PASSWORD"))
+      gumtree_ad = @gumtree.post_ad(params)
+      gumtree_ad.should be_a_kind_of(GumtreeAd)
+      gumtree_ad.id.should_not be_nil
+      gumtree_ad.param("Title").should == params["Title"]
+    end
+  end
 end

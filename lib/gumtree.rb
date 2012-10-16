@@ -1,4 +1,5 @@
 require 'httpclient'
+require_relative "constants"
 
 class Gumtree
   BASE_DOMAIN = "gumtree.co.za"
@@ -39,14 +40,17 @@ class Gumtree
     @connected
   end
   
+  def check_required_params(user_params)
+    
+    required_parameters = ["CatId", "Title", "Description", "MapAddress", "Price"]
+    required_parameters.each do |param|
+      raise "Missing required parameter '#{param}'." unless user_params.include? param
+    end
+  end
+  
   def post_ad(user_params)
     
-    unless
-      ["CatId", "Title", "Description", "MapAddress", "Price"].all? do |key|
-        user_params.key?(key)
-      end
-      raise "Please pass in all the required paramaters" 
-    end
+    check_required_params(user_params)
     
     default_params = {
       "RequestRefererUrl" => "%252C%2C%252C",
