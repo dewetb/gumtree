@@ -12,7 +12,7 @@ describe Gumtree do
 
   it "should create ads" do
     params = {
-      "CatId" => Categories::Home_Garden::FURNITURE,
+      "CatId" => Categories::HomeGarden::FURNITURE,
       "Title" => "Red two seater sofa and different armchair",
       "Description" => "I would prefer to describe it as a red two seater sofa and different armchair.",
       "MapAddress" => "South Africa",

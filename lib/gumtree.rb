@@ -40,10 +40,22 @@ class Gumtree
     @connected
   end
   
+  def service?(user_params)
+    (Categories::Services::ALL_SERVICES).include? user_params["CatId"]
+  end
+  
   def check_required_params(user_params)
     
-    required_parameters = ["CatId", "Title", "Description", "MapAddress", "Price"]
-    required_parameters.each do |param|
+    standard_essentials = ["CatId", "Title", "Description", "MapAddress", "Price"]
+    service_essentials = standard_essentials - ["Price"]
+    
+    if service?(user_params)
+      required_essentials = service_essentials
+    else
+      required_essentials = standard_essentials
+    end
+    
+    required_essentials.each do |param|
       raise "Missing required parameter '#{param}'." unless user_params.include? param
     end
   end
