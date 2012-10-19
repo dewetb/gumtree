@@ -40,26 +40,6 @@ class Gumtree
     @connected
   end
   
-  def service?(user_params)
-    (Categories::Services::ALL_SERVICES).include? user_params["CatId"]
-  end
-  
-  def check_required_params(user_params)
-    
-    standard_essentials = ["CatId", "Title", "Description", "MapAddress", "Price"]
-    service_essentials = standard_essentials - ["Price"]
-    
-    if service?(user_params)
-      required_essentials = service_essentials
-    else
-      required_essentials = standard_essentials
-    end
-    
-    required_essentials.each do |param|
-      raise "Missing required parameter '#{param}'." unless user_params.include? param
-    end
-  end
-  
   def post_ad(user_params)
     
     check_required_params(user_params)
@@ -107,48 +87,33 @@ class Gumtree
     # 1. Delete the ad
     delete_url = "#{@base_url}/c-MyAds?Action=DELETE_ADS&Mode=ACTIVE&RowId=#{ad_id}&SurveyResponse=4"
     delete_ad = @http_client.get(delete_url, nil, { "User-Agent" => USER_AGENT })
-    
-
-=begin
-Here is some non-working code where I am trying to verify the ad is deleted
-    # 2. Verify that the ad was deleted    
-    ad_deleted_url = "#{@base_url}/c-MyAds?Action=DELETE_ADS&Mode=ACTIVE&RowId=#{ad_id}&SurveyResponse=4"
-      
-    ad_deleted = @http_client.get(ad_deleted_url, nil, { "User-Agent" => USER_AGENT })
-    puts(ad_deleted.header)
-    #raise "Unexpected 'Ad Deleted' URL" unless activate_redirect.match(/#{@base_url}\/c-ViewAd\?AdId=#{ad_id}.*/)
-    
-    
-    #ad_redirect = ad_response.headers.fetch("")
-    #headerhash = search_redirect.headers
-    #puts(headerhash)
-=end
-
-# Here is some working code to search for an ad that I realized I don't need to delete ads
-# It might be useful in verifying that the ad has been deleted
-
-=begin
-# 1. URL To search for ad
-    ad_url = "#{@base_url}/f-SearchAdRedirect?isSearchForm=true&Keyword=#{ad_id}"
-    
-    # 2. Follow first redirect
-    search_response = @http_client.get(ad_url, nil, { "User-Agent" => USER_AGENT })
-    search_redirect = search_response.headers.fetch("Location")
-    #puts("The search_redirect is #{search_redirect}")
-    
-    # 3. Follow second redirect
-    search_second_response = @http_client.get(search_redirect, nil, { "User-Agent" => USER_AGENT })
-    ad_page = search_second_response.headers.fetch("Location")
-    puts("The ad_page is #{ad_page}")
-=end
-
-
-    
   end
 
   def build_ad(id, params={})
     GumtreeAd.new(self, id, params)
   end
+
+  private
+  def service?(user_params)
+    (Categories::Services::ALL_SERVICES).include? user_params["CatId"]
+  end
+  
+  def check_required_params(user_params)
+    
+    standard_essentials = ["CatId", "Title", "Description", "MapAddress", "Price"]
+    service_essentials = standard_essentials - ["Price"]
+    
+    if service?(user_params)
+      required_essentials = service_essentials
+    else
+      required_essentials = standard_essentials
+    end
+    
+    required_essentials.each do |param|
+      raise "Missing required parameter '#{param}'." unless user_params.include? param
+    end
+  end
+
 end
 
 
