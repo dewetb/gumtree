@@ -16,6 +16,8 @@ describe Gumtree do
       "Title" => "Red two seater sofa and different armchair",
       "Description" => "I would prefer to describe it as a red two seater sofa and different armchair.",
       "MapAddress" => "South Africa",
+      "SubArea" => SubArea::SOUTHERN_PENINSULA,
+      "Neighborhood" => Neighborhood::SouthernPeninsula::MUIZENBERG,
       "Price" => "15000",
     }
     VCR.use_cassette("gumtree-post_ad") do
@@ -61,4 +63,21 @@ describe Gumtree do
       gumtree_ad.param("Title").should == params["Title"]
     end
   end
+
+  it "should check if the Neighborhood is in the SubArea" do
+    params = {
+      "CatId" => Categories::HomeGarden::FURNITURE,
+      "Title" => "Red two seater sofa and different armchair",
+      "Description" => "I would prefer to describe it as a red two seater sofa and different armchair.",
+      "MapAddress" => "South Africa",
+      "SubArea" => SubArea::SOUTHERN_PENINSULA,
+      "Neighborhood" => Neighborhood::AtlanticSeaboard::HOUT_BAY,
+      "Price" => "15000",
+    }
+    VCR.use_cassette("gumtree-sub_area_neighborhoods") do
+      @gumtree = Gumtree.new("capetown-westerncape", ENV.fetch("GUMTREE_USERNAME"), ENV.fetch("GUMTREE_PASSWORD"))
+      expect { gumtree_ad = @gumtree.post_ad(params) }.to raise_error(RuntimeError)
+    end
+  end
+
 end
