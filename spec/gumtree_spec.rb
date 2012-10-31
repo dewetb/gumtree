@@ -79,5 +79,12 @@ describe Gumtree do
       expect { gumtree_ad = @gumtree.post_ad(params) }.to raise_error(RuntimeError)
     end
   end
+  
+  it "can return an array of ad id's" do
+    VCR.use_cassette("gumtree_list_ads") do
+      @gumtree = Gumtree.new("capetown-westerncape", ENV.fetch("GUMTREE_USERNAME"), ENV.fetch("GUMTREE_PASSWORD"))
+      @gumtree.list_ads.should be_a_kind_of(Array)
+    end
+  end
 
 end

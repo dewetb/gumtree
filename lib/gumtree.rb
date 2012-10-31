@@ -93,6 +93,13 @@ class Gumtree
   def build_ad(id, params={})
     GumtreeAd.new(self, id, params)
   end
+  
+  def list_ads
+    myads_url = "#{@base_url}/c-ManageMyAds"
+    myads_page = @http_client.get(myads_url, nil, { "User-Agent" => USER_AGENT })
+    doubled_ads = myads_page.body.scan(/(?<=AdIdZ)\d+(?=")/)
+    ads = doubled_ads.uniq
+  end
 
   private
   def service?(user_params)
