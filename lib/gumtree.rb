@@ -1,4 +1,5 @@
 require 'httpclient'
+require 'nokogiri'
 require_relative "constants"
 
 class Gumtree
@@ -83,24 +84,54 @@ class Gumtree
     build_ad(ad_id, params)
   end
 
+  def build_ad(id, params={})
+    GumtreeAd.new(self, id, params)
+  end
+
+  def get_ad(id)
+    # 1. Search for the ad
+    search_url = "#{@base_url}/f-SearchAdRedirect?"
+    search_params = {
+      "isSearchForm" => "true",
+      "Keyword" => id,
+      "CatId" => "0",
+      "Location" => "3100001",
+    }
+    search_response = @http_client.get(search_url, search_params, { "User-Agent" => USER_AGENT })
+    search_redirect = search_response.headers.fetch("Location")
+    
+    # 2. Follow redirect
+    activate_response = @http_client.get(search_redirect, nil, { "User-Agent" => USER_AGENT })
+    activate_redirect = activate_response.headers.fetch("Location")
+    
+    # 3. Go to the ad page
+    view_ad = @http_client.get(activate_redirect, nil, { "User-Agent" => USER_AGENT })
+    
+  end
+  
+  def build_from_id(id) # Currently using regex, need to implement nokogiri
+    ad_page = get_ad(id)
+    cathash = ad_page.body.scan(/(?<=W0QQCatIdZ).+?(?=" itemprop="url")/m)
+    catid = cathash[-1]
+    description = ad_page.body.scan(/(?<=<span id="preview-local-desc">).+?(?=<\/span>)/m)
+    puts(catid)
+    
+  end
+
+  def list_ads # Creates an array of Ad ID's
+    myads_url = "#{@base_url}/c-ManageMyAds"
+    myads_page = @http_client.get(myads_url, nil, { "User-Agent" => USER_AGENT })
+    doubled_ads = myads_page.body.scan(/(?<=AdIdZ)\d+(?=")/)
+      ads = doubled_ads.uniq
+  end
+  
   def delete_ad(ad_id)
   
     # 1. Delete the ad
     delete_url = "#{@base_url}/c-MyAds?Action=DELETE_ADS&Mode=ACTIVE&RowId=#{ad_id}&SurveyResponse=4"
     delete_ad = @http_client.get(delete_url, nil, { "User-Agent" => USER_AGENT })
   end
-
-  def build_ad(id, params={})
-    GumtreeAd.new(self, id, params)
-  end
   
-  def list_ads
-    myads_url = "#{@base_url}/c-ManageMyAds"
-    myads_page = @http_client.get(myads_url, nil, { "User-Agent" => USER_AGENT })
-    doubled_ads = myads_page.body.scan(/(?<=AdIdZ)\d+(?=")/)
-    ads = doubled_ads.uniq
-  end
-
   private
   def service?(user_params)
     (Categories::Services::ALL_SERVICES).include? user_params["CatId"]
@@ -131,21 +162,7 @@ class Gumtree
   end
 
 end
-=begin
-user_params = {
-  "CatId" => Categories::HomeGarden::FURNITURE,
-  "Title" => "Red two seater sofa and different armchair",
-  "Description" => "I would prefer to describe it as a red two seater sofa and different armchair.",
-  "MapAddress" => "South Africa",
-  "SubArea" => SubArea::SOUTHERN_PENINSULA,
-  "Neighborhood" => Neighborhood::SouthernPeninsula::MUIZENBERG,
-  "Price" => "15000",
-}
 
-p((SUB_AREA_NEIGHBORHOODS[user_params["SubArea"]]).include? user_params["Neighborhood"])
-
-p(user_params["SubArea"] <=> '3100009')
-=end
 class GumtreeAd
   attr_reader :id
 
@@ -154,7 +171,7 @@ class GumtreeAd
     @id = id
     @params = params
   end
-
+  
   def param(name)
     @params.fetch(name)
   end
@@ -162,4 +179,10 @@ class GumtreeAd
   def delete
     @gumtree.delete_ad(id)
   end
+=begin
+  def self.repost(id)
+    @gumtree.delete_ad(id)
+    @gumtree.post_ad(params)
+  end
+=end
 end

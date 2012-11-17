@@ -14,11 +14,11 @@ describe Gumtree do
     params = {
       "CatId" => Categories::HomeGarden::FURNITURE,
       "Title" => "Red two seater sofa and different armchair",
-      "Description" => "I would prefer to describe it as a red two seater sofa and different armchair.",
+      "Description" => "I picked it up at a coding party on Saturday.",
       "MapAddress" => "South Africa",
       "SubArea" => SubArea::SOUTHERN_PENINSULA,
       "Neighborhood" => Neighborhood::SouthernPeninsula::MUIZENBERG,
-      "Price" => "15000",
+      "Price" => "20000",
     }
     VCR.use_cassette("gumtree-post_ad") do
       @gumtree = Gumtree.new("capetown-westerncape", ENV.fetch("GUMTREE_USERNAME"), ENV.fetch("GUMTREE_PASSWORD"))
@@ -87,4 +87,31 @@ describe Gumtree do
     end
   end
 
+  xit "can find gumtree ads by ID and create GumtreeAd objects from them" do
+    VCR.use_cassette("gumtree-build_from_id") do
+      @gumtree = Gumtree.new("capetown-westerncape", ENV.fetch("GUMTREE_USERNAME"), ENV.fetch("GUMTREE_PASSWORD"))
+      current_ads = @gumtree.list_ads
+      raise "No ads to run get_ad test on" unless current_ads.length >= 1
+      generated_ad = @gumtree.build_from_id(current_ads[0])
+      generated_ad.should be_a_kind_of(GumtreeAd)
+      generated_ad.id.should_not be_nil
+      generated_ad.param("Title").should_not be_nill
+    end
+  end
+
+end
+
+describe GumtreeAd do
+  
+  xit "should re-post ads" do
+    VCR.use_cassette("gumtree_ad-repost") do
+      @gumtree = Gumtree.new("capetown-westerncape", ENV.fetch("GUMTREE_USERNAME"), ENV.fetch("GUMTREE_PASSWORD"))
+      valid_ads = @gumtree.list_ads
+      first_ad = valid_ads[0]
+      fresh_ad = GumtreeAd.repost(first_ad)
+      fresh_ad.should be_a_kind_of(GumtreeAd)
+      fresh_ad.id.should_not be_nil
+      fresh_ad.param("Title").should == params["Title"]
+    end
+  end
 end
